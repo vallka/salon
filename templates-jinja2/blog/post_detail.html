@@ -1,0 +1,69 @@
+{% extends 'base_skinned.html' %}
+
+{% block description %}{{post.description}}{% endblock %}
+{% block keywords %}{{post.keywords}}{% endblock %}
+
+{% block title %}{{meta_title}} - Blog - {{post.title}}{% endblock %}
+
+{% block json_ld %}
+{{post.json_ld|safe}}
+{% endblock json_ld %}
+
+{% block content %}
+{% if post %}
+  {% if post.title_color %}
+    <style>
+      .blog_post_{{post.id}} .blog_header, 
+      .blog_post_{{post.id}} .blog_date, 
+      .blog_post_{{post.id}} .blog_header a {
+        color: {{post.title_color}} !important;
+      }
+    </style>
+  {% endif %}
+  {% if post.title_bgcolor %}
+    <style>
+      .blog_post_{{post.id}} .blog_header {
+        background-color: {{post.title_bgcolor}} !important;
+      }
+      .blog_post_{{post.id}} p a {
+          border-bottom-color: {{post.title_bgcolor}} !important;
+          filter: brightness(95%);
+      }
+      .blog_post_{{post.id}} li::marker {
+        color: {{post.title_bgcolor}} !important;
+        filter: brightness(95%);
+      }
+      .blog_post_{{post.id}} h2 {
+        color: {{post.title_bgcolor}} !important;
+        filter: brightness(95%);
+      }
+      .blog_post_{{post.id}} .read_more a {
+        color: {{post.title_bgcolor}} !important;
+        filter: brightness(95%);
+      }
+      .blog_post_{{post.id}} s, .blog_post_{{post.id}} del {
+        text-decoration-color: {{post.title_bgcolor}}30;
+      }
+
+
+      .div-dot_{{post.id}}::after {
+        background-color: {{post.title_bgcolor}} !important;
+      }
+
+    </style>
+  {% endif %}
+<div class="blog_post blog_post_{{post.id}}">
+      <div class="blog_header">
+        <h1><a href="{% if post.lang %}
+                        {{ url ('blog:post',args=[post.slug,post.lang]) }}
+                     {% else %}
+                        {{ url ('blog:post_en',args=[post.slug]) }}
+                      {% endif %}">{{post.title}}</a></h1>
+      </div>
+      <div class="blog_body">
+        {{post.formatted_markdown|safe}}
+      </div>
+    </div>
+
+    {% endif %}     
+{% endblock content %}
