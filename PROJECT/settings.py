@@ -30,6 +30,7 @@ ALLOWED_HOSTS = ['*']
 
 INSTALLED_APPS = [
     'blog',
+    'fresha',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -69,7 +70,7 @@ TEMPLATES = [
     },
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -94,8 +95,10 @@ DATABASES = {
     'default': {
             'ENGINE': 'django.db.backends.mysql',
             'NAME': 'salon',
-            'HOST': '/opt/bitnami/mariadb/tmp/mysql.sock',
-            'PORT': '3306',
+            #'HOST': '/opt/bitnami/mariadb/tmp/mysql.sock',
+            #'PORT': '3306',
+            'HOST': 'localhost',
+            'PORT': '3307',
             'USER': os.environ['POLLS_DB_USER'],
             'PASSWORD': os.environ['POLLS_DB_PASSWORD'],
     }

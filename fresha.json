@@ -1,0 +1,3625 @@
+{
+    "data": [
+        {
+            "attributes": {
+                "caption": null,
+                "deal-price": null,
+                "description": "Perfect eyebrows mean perfect arches. (Wax & Tweezers)\n\nFirst, you and your wax therapist discuss your preferences and how you want your brows shaped.\nThen, the wax is carefully applied in the direction of hair growth.\nOnce dry, the wax is removed opposite the direction of hair growth.\n",
+                "duration-for-customer-in-seconds": 1800,
+                "gender": "everyone",
+                "max-duration-for-customer-in-seconds": 1800,
+                "min-duration-for-customer-in-seconds": 1800,
+                "name": "BROW SHAPING",
+                "non-discounted-price": 17.0,
+                "parallel": false,
+                "position": -9,
+                "price-type": "fixed",
+                "retail-price": 17.0,
+                "taxes": []
+            },
+            "id": "sv:11385179",
+            "relationships": {
+                "item-group": {
+                    "data": {
+                        "id": "s:9780287",
+                        "type": "offer-item-groups"
+                    }
+                },
+                "service-variant": {
+                    "data": {
+                        "id": "11385179",
+                        "type": "service-variants"
+                    }
+                }
+            },
+            "type": "offer-items"
+        },
+        {
+            "attributes": {
+                "caption": null,
+                "deal-price": null,
+                "description": "Hair ends only",
+                "duration-for-customer-in-seconds": 900,
+                "gender": "everyone",
+                "max-duration-for-customer-in-seconds": 900,
+                "min-duration-for-customer-in-seconds": 900,
+                "name": "DRY HAIRCUT ",
+                "non-discounted-price": 15.0,
+                "parallel": false,
+                "position": -15,
+                "price-type": "fixed",
+                "retail-price": 15.0,
+                "taxes": []
+            },
+            "id": "sv:11385180",
+            "relationships": {
+                "item-group": {
+                    "data": {
+                        "id": "s:9780288",
+                        "type": "offer-item-groups"
+                    }
+                },
+                "service-variant": {
+                    "data": {
+                        "id": "11385180",
+                        "type": "service-variants"
+                    }
+                }
+            },
+            "type": "offer-items"
+        },
+        {
+            "attributes": {
+                "caption": null,
+                "deal-price": null,
+                "description": "A follow up appointment after your initial gel nail strengthen or extension manicure. We recommend a gel rebalance service every 3 - 4 weeks to keep your natural nails healthy. Completed with gel polish application, cuticle work (e-file). ",
+                "duration-for-customer-in-seconds": 6300,
+                "gender": "everyone",
+                "max-duration-for-customer-in-seconds": 6300,
+                "min-duration-for-customer-in-seconds": 6300,
+                "name": "INFILL / GEL REBALANCE",
+                "non-discounted-price": 40.0,
+                "parallel": false,
+                "position": -11,
+                "price-type": "fixed",
+                "retail-price": 40.0,
+                "taxes": []
+            },
+            "id": "sv:11385181",
+            "relationships": {
+                "item-group": {
+                    "data": {
+                        "id": "s:9780289",
+                        "type": "offer-item-groups"
+                    }
+                },
+                "service-variant": {
+                    "data": {
+                        "id": "11385181",
+                        "type": "service-variants"
+                    }
+                }
+            },
+            "type": "offer-items"
+        },
+        {
+            "attributes": {
+                "caption": null,
+                "deal-price": null,
+                "description": "A complete manicure with application of our Signature, strengthening products such as Apex Gel / Rubber Base  (builder in the bottle) with Signature gel polish colour application. The service is completed with cuticle treatment (oil).\n\nA complete manicure includes cuticle care, prep, shape and file of the natural nail plate using a range of professional nail tools and an E-file for a longer-lasting gel manicure of up to 3+ weeks.",
+                "duration-for-customer-in-seconds": 5700,
+                "gender": "everyone",
+                "max-duration-for-customer-in-seconds": 5700,
+                "min-duration-for-customer-in-seconds": 5700,
+                "name": "STRENGTHENING MANICURE ( NATURAL NAILS )",
+                "non-discounted-price": 35.0,
+                "parallel": false,
+                "position": -12,
+                "price-type": "fixed",
+                "retail-price": 35.0,
+                "taxes": []
+            },
+            "id": "sv:11385182",
+            "relationships": {
+                "item-group": {
+                    "data": {
+                        "id": "s:9780290",
+                        "type": "offer-item-groups"
+                    }
+                },
+                "service-variant": {
+                    "data": {
+                        "id": "11385182",
+                        "type": "service-variants"
+                    }
+                }
+            },
+            "type": "offer-items"
+        },
+        {
+            "attributes": {
+                "caption": null,
+                "deal-price": null,
+                "description": "A complete manicure followed by application of our Signature gel polish colour range. The service is completed with cuticle treatment (oil).\n\nA complete manicure includes cuticle care, prep, shape and file of the natural nail plate using a range of professional nail tools and an E-file for a longer-lasting gel manicure of up to 3+ weeks.",
+                "duration-for-customer-in-seconds": 4800,
+                "gender": "everyone",
+                "max-duration-for-customer-in-seconds": 4800,
+                "min-duration-for-customer-in-seconds": 4800,
+                "name": "CLASSIC GEL MANICURE ( NATURAL NAILS )",
+                "non-discounted-price": 30.0,
+                "parallel": false,
+                "position": -13,
+                "price-type": "fixed",
+                "retail-price": 30.0,
+                "taxes": []
+            },
+            "id": "sv:11385183",
+            "relationships": {
+                "item-group": {
+                    "data": {
+                        "id": "s:9780291",
+                        "type": "offer-item-groups"
+                    }
+                },
+                "service-variant": {
+                    "data": {
+                        "id": "11385183",
+                        "type": "service-variants"
+                    }
+                }
+            },
+            "type": "offer-items"
+        },
+        {
+            "attributes": {
+                "caption": null,
+                "deal-price": null,
+                "description": "A complete manicure cuticle work (e-file) followed by application of cuticle treatment (oil).\n\nA complete manicure includes cuticle care, prep, shape and file of the natural nail plate using a range of professional nail tools and products.\nPlease note removal services includes only removal of UV/LED gel enhancements. Removal of acrylic enhancement will incur an additional charge as these nail enhancements may require more time.",
+                "duration-for-customer-in-seconds": 3600,
+                "gender": "everyone",
+                "max-duration-for-customer-in-seconds": 3600,
+                "min-duration-for-customer-in-seconds": 3600,
+                "name": "CLASSIC MANICURE (WITH REMOVAL)",
+                "non-discounted-price": 25.0,
+                "parallel": false,
+                "position": -14,
+                "price-type": "fixed",
+                "retail-price": 25.0,
+                "taxes": []
+            },
+            "id": "sv:11385184",
+            "relationships": {
+                "item-group": {
+                    "data": {
+                        "id": "s:9780292",
+                        "type": "offer-item-groups"
+                    }
+                },
+                "service-variant": {
+                    "data": {
+                        "id": "11385184",
+                        "type": "service-variants"
+                    }
+                }
+            },
+            "type": "offer-items"
+        },
+        {
+            "attributes": {
+                "caption": null,
+                "deal-price": null,
+                "description": "A complete manicure followed by application of cuticle treatment (oil). Please note, a removal is not included in these services. \nA complete manicure includes cuticle care, prep, shape and file of the natural nail plate using a range of professional nail tools and an E-file for a longer-lasting gel manicure of up to 3+ weeks.",
+                "duration-for-customer-in-seconds": 2700,
+                "gender": "everyone",
+                "max-duration-for-customer-in-seconds": 2700,
+                "min-duration-for-customer-in-seconds": 2700,
+                "name": "CLASSIC MANICURE (NATURAL NAILS)",
+                "non-discounted-price": 20.0,
+                "parallel": false,
+                "position": -15,
+                "price-type": "fixed",
+                "retail-price": 20.0,
+                "taxes": []
+            },
+            "id": "sv:11385185",
+            "relationships": {
+                "item-group": {
+                    "data": {
+                        "id": "s:9780293",
+                        "type": "offer-item-groups"
+                    }
+                },
+                "service-variant": {
+                    "data": {
+                        "id": "11385185",
+                        "type": "service-variants"
+                    }
+                }
+            },
+            "type": "offer-items"
+        },
+        {
+            "attributes": {
+                "caption": null,
+                "deal-price": null,
+                "description": null,
+                "duration-for-customer-in-seconds": 1800,
+                "gender": "everyone",
+                "max-duration-for-customer-in-seconds": 1800,
+                "min-duration-for-customer-in-seconds": 1800,
+                "name": "WASH & BLOW DRY",
+                "non-discounted-price": 20.0,
+                "parallel": false,
+                "position": -12,
+                "price-type": "fixed",
+                "retail-price": 20.0,
+                "taxes": []
+            },
+            "id": "sv:11392248",
+            "relationships": {
+                "item-group": {
+                    "data": {
+                        "id": "s:9786610",
+                        "type": "offer-item-groups"
+                    }
+                },
+                "service-variant": {
+                    "data": {
+                        "id": "11392248",
+                        "type": "service-variants"
+                    }
+                }
+            },
+            "type": "offer-items"
+        },
+        {
+            "attributes": {
+                "caption": null,
+                "deal-price": null,
+                "description": null,
+                "duration-for-customer-in-seconds": 3600,
+                "gender": "everyone",
+                "max-duration-for-customer-in-seconds": 3600,
+                "min-duration-for-customer-in-seconds": 3600,
+                "name": "WASH, CUT & BLOW DRY",
+                "non-discounted-price": 40.0,
+                "parallel": false,
+                "position": -11,
+                "price-type": "fixed",
+                "retail-price": 40.0,
+                "taxes": []
+            },
+            "id": "sv:11392272",
+            "relationships": {
+                "item-group": {
+                    "data": {
+                        "id": "s:9786632",
+                        "type": "offer-item-groups"
+                    }
+                },
+                "service-variant": {
+                    "data": {
+                        "id": "11392272",
+                        "type": "service-variants"
+                    }
+                }
+            },
+            "type": "offer-items"
+        },
+        {
+            "attributes": {
+                "caption": null,
+                "deal-price": null,
+                "description": null,
+                "duration-for-customer-in-seconds": 5400,
+                "gender": "everyone",
+                "max-duration-for-customer-in-seconds": 5400,
+                "min-duration-for-customer-in-seconds": 5400,
+                "name": "WASH, CUT & BLOW DRY / RE-STYLING ",
+                "non-discounted-price": 60.0,
+                "parallel": false,
+                "position": -10,
+                "price-type": "fixed",
+                "retail-price": 60.0,
+                "taxes": []
+            },
+            "id": "sv:11392292",
+            "relationships": {
+                "item-group": {
+                    "data": {
+                        "id": "s:9786649",
+                        "type": "offer-item-groups"
+                    }
+                },
+                "service-variant": {
+                    "data": {
+                        "id": "11392292",
+                        "type": "service-variants"
+                    }
+                }
+            },
+            "type": "offer-items"
+        },
+        {
+            "attributes": {
+                "caption": null,
+                "deal-price": null,
+                "description": null,
+                "duration-for-customer-in-seconds": 5400,
+                "gender": "everyone",
+                "max-duration-for-customer-in-seconds": 5400,
+                "min-duration-for-customer-in-seconds": 5400,
+                "name": "HAIR - UP (no wash)",
+                "non-discounted-price": 45.0,
+                "parallel": false,
+                "position": -9,
+                "price-type": "fixed",
+                "retail-price": 45.0,
+                "taxes": []
+            },
+            "id": "sv:11392307",
+            "relationships": {
+                "item-group": {
+                    "data": {
+                        "id": "s:9786663",
+                        "type": "offer-item-groups"
+                    }
+                },
+                "service-variant": {
+                    "data": {
+                        "id": "11392307",
+                        "type": "service-variants"
+                    }
+                }
+            },
+            "type": "offer-items"
+        },
+        {
+            "attributes": {
+                "caption": null,
+                "deal-price": null,
+                "description": null,
+                "duration-for-customer-in-seconds": 7200,
+                "gender": "everyone",
+                "max-duration-for-customer-in-seconds": 7200,
+                "min-duration-for-customer-in-seconds": 7200,
+                "name": "BRIDAL (no wash)",
+                "non-discounted-price": 60.0,
+                "parallel": false,
+                "position": -8,
+                "price-type": "fixed",
+                "retail-price": 60.0,
+                "taxes": []
+            },
+            "id": "sv:11392312",
+            "relationships": {
+                "item-group": {
+                    "data": {
+                        "id": "s:9786668",
+                        "type": "offer-item-groups"
+                    }
+                },
+                "service-variant": {
+                    "data": {
+                        "id": "11392312",
+                        "type": "service-variants"
+                    }
+                }
+            },
+            "type": "offer-items"
+        },
+        {
+            "attributes": {
+                "caption": "Medium length",
+                "deal-price": null,
+                "description": null,
+                "duration-for-customer-in-seconds": 5400,
+                "gender": "everyone",
+                "max-duration-for-customer-in-seconds": 5400,
+                "min-duration-for-customer-in-seconds": 5400,
+                "name": "HAIR TREATMENT ",
+                "non-discounted-price": 68.0,
+                "parallel": false,
+                "position": -7,
+                "price-type": "fixed",
+                "retail-price": 68.0,
+                "taxes": []
+            },
+            "id": "sv:11392606",
+            "relationships": {
+                "item-group": {
+                    "data": {
+                        "id": "s:9786930",
+                        "type": "offer-item-groups"
+                    }
+                },
+                "service-variant": {
+                    "data": {
+                        "id": "11392606",
+                        "type": "service-variants"
+                    }
+                }
+            },
+            "type": "offer-items"
+        },
+        {
+            "attributes": {
+                "caption": "Long length",
+                "deal-price": null,
+                "description": null,
+                "duration-for-customer-in-seconds": 5400,
+                "gender": "everyone",
+                "max-duration-for-customer-in-seconds": 5400,
+                "min-duration-for-customer-in-seconds": 5400,
+                "name": "HAIR TREATMENT ",
+                "non-discounted-price": 73.0,
+                "parallel": false,
+                "position": -7,
+                "price-type": "fixed",
+                "retail-price": 73.0,
+                "taxes": []
+            },
+            "id": "sv:11392607",
+            "relationships": {
+                "item-group": {
+                    "data": {
+                        "id": "s:9786930",
+                        "type": "offer-item-groups"
+                    }
+                },
+                "service-variant": {
+                    "data": {
+                        "id": "11392607",
+                        "type": "service-variants"
+                    }
+                }
+            },
+            "type": "offer-items"
+        },
+        {
+            "attributes": {
+                "caption": "Short length",
+                "deal-price": null,
+                "description": "OLAPLEX",
+                "duration-for-customer-in-seconds": 1800,
+                "gender": "everyone",
+                "max-duration-for-customer-in-seconds": 1800,
+                "min-duration-for-customer-in-seconds": 1800,
+                "name": "HAIR HYDRATION",
+                "non-discounted-price": 35.0,
+                "parallel": false,
+                "position": -6,
+                "price-type": "fixed",
+                "retail-price": 35.0,
+                "taxes": []
+            },
+            "id": "sv:11393174",
+            "relationships": {
+                "item-group": {
+                    "data": {
+                        "id": "s:9787447",
+                        "type": "offer-item-groups"
+                    }
+                },
+                "service-variant": {
+                    "data": {
+                        "id": "11393174",
+                        "type": "service-variants"
+                    }
+                }
+            },
+            "type": "offer-items"
+        },
+        {
+            "attributes": {
+                "caption": "Long length",
+                "deal-price": null,
+                "description": "OLAPLEX",
+                "duration-for-customer-in-seconds": 1800,
+                "gender": "everyone",
+                "max-duration-for-customer-in-seconds": 1800,
+                "min-duration-for-customer-in-seconds": 1800,
+                "name": "HAIR HYDRATION",
+                "non-discounted-price": 38.0,
+                "parallel": false,
+                "position": -6,
+                "price-type": "fixed",
+                "retail-price": 38.0,
+                "taxes": []
+            },
+            "id": "sv:11393175",
+            "relationships": {
+                "item-group": {
+                    "data": {
+                        "id": "s:9787447",
+                        "type": "offer-item-groups"
+                    }
+                },
+                "service-variant": {
+                    "data": {
+                        "id": "11393175",
+                        "type": "service-variants"
+                    }
+                }
+            },
+            "type": "offer-items"
+        },
+        {
+            "attributes": {
+                "caption": "Ear length",
+                "deal-price": null,
+                "description": null,
+                "duration-for-customer-in-seconds": 6900,
+                "gender": "everyone",
+                "max-duration-for-customer-in-seconds": 6900,
+                "min-duration-for-customer-in-seconds": 6900,
+                "name": "FULL HEAD BLEACH ",
+                "non-discounted-price": 60.0,
+                "parallel": false,
+                "position": -5,
+                "price-type": "fixed",
+                "retail-price": 60.0,
+                "taxes": []
+            },
+            "id": "sv:11394271",
+            "relationships": {
+                "item-group": {
+                    "data": {
+                        "id": "s:9788450",
+                        "type": "offer-item-groups"
+                    }
+                },
+                "service-variant": {
+                    "data": {
+                        "id": "11394271",
+                        "type": "service-variants"
+                    }
+                }
+            },
+            "type": "offer-items"
+        },
+        {
+            "attributes": {
+                "caption": "Above shoulder",
+                "deal-price": null,
+                "description": null,
+                "duration-for-customer-in-seconds": 10800,
+                "gender": "everyone",
+                "max-duration-for-customer-in-seconds": 10800,
+                "min-duration-for-customer-in-seconds": 10800,
+                "name": "FULL HEAD BLEACH ",
+                "non-discounted-price": 110.0,
+                "parallel": false,
+                "position": -5,
+                "price-type": "fixed",
+                "retail-price": 110.0,
+                "taxes": []
+            },
+            "id": "sv:11394272",
+            "relationships": {
+                "item-group": {
+                    "data": {
+                        "id": "s:9788450",
+                        "type": "offer-item-groups"
+                    }
+                },
+                "service-variant": {
+                    "data": {
+                        "id": "11394272",
+                        "type": "service-variants"
+                    }
+                }
+            },
+            "type": "offer-items"
+        },
+        {
+            "attributes": {
+                "caption": "Below shoulder",
+                "deal-price": null,
+                "description": null,
+                "duration-for-customer-in-seconds": 18000,
+                "gender": "everyone",
+                "max-duration-for-customer-in-seconds": 18000,
+                "min-duration-for-customer-in-seconds": 18000,
+                "name": "FULL HEAD BLEACH ",
+                "non-discounted-price": 160.0,
+                "parallel": false,
+                "position": -5,
+                "price-type": "starts_at",
+                "retail-price": 160.0,
+                "taxes": []
+            },
+            "id": "sv:11394273",
+            "relationships": {
+                "item-group": {
+                    "data": {
+                        "id": "s:9788450",
+                        "type": "offer-item-groups"
+                    }
+                },
+                "service-variant": {
+                    "data": {
+                        "id": "11394273",
+                        "type": "service-variants"
+                    }
+                }
+            },
+            "type": "offer-items"
+        },
+        {
+            "attributes": {
+                "caption": null,
+                "deal-price": null,
+                "description": null,
+                "duration-for-customer-in-seconds": 4500,
+                "gender": "everyone",
+                "max-duration-for-customer-in-seconds": 4500,
+                "min-duration-for-customer-in-seconds": 4500,
+                "name": "ROOTS BLEACH ",
+                "non-discounted-price": 65.0,
+                "parallel": false,
+                "position": -4,
+                "price-type": "starts_at",
+                "retail-price": 65.0,
+                "taxes": []
+            },
+            "id": "sv:11394306",
+            "relationships": {
+                "item-group": {
+                    "data": {
+                        "id": "s:9788482",
+                        "type": "offer-item-groups"
+                    }
+                },
+                "service-variant": {
+                    "data": {
+                        "id": "11394306",
+                        "type": "service-variants"
+                    }
+                }
+            },
+            "type": "offer-items"
+        },
+        {
+            "attributes": {
+                "caption": null,
+                "deal-price": null,
+                "description": null,
+                "duration-for-customer-in-seconds": 5700,
+                "gender": "everyone",
+                "max-duration-for-customer-in-seconds": 5700,
+                "min-duration-for-customer-in-seconds": 5700,
+                "name": "ROOTS BLEACH AND TONE ",
+                "non-discounted-price": 74.0,
+                "parallel": false,
+                "position": -3,
+                "price-type": "starts_at",
+                "retail-price": 74.0,
+                "taxes": []
+            },
+            "id": "sv:11394312",
+            "relationships": {
+                "item-group": {
+                    "data": {
+                        "id": "s:9788488",
+                        "type": "offer-item-groups"
+                    }
+                },
+                "service-variant": {
+                    "data": {
+                        "id": "11394312",
+                        "type": "service-variants"
+                    }
+                }
+            },
+            "type": "offer-items"
+        },
+        {
+            "attributes": {
+                "caption": null,
+                "deal-price": null,
+                "description": "About this service:\n\nPatch test recommendation 24/48h prior to the appointment on a walk in basis at the venue\nIf the root length is more than 3 cm the venue may charge extra\nColour price correction - only by consultation in the salon\n    Blow-dry not included\n\nRestrictions:\n\nA patch test is required 24/48 hours prior to treatment. Please call the salon once the booking has been confirmed to arrange this or walk in at least 24 hours before the treatment\nThis service does not include a blow dry\n\nPatch test:\n\nTo make sure your skin doesn’t react to the products used in your treatment, please book a patch test at least 48 hours before your appointment.\n\nAlready had one in the past 6 months at this salon? You might not need to do it again (but please check with the salon to be sure).",
+                "duration-for-customer-in-seconds": 4200,
+                "gender": "everyone",
+                "max-duration-for-customer-in-seconds": 4200,
+                "min-duration-for-customer-in-seconds": 4200,
+                "name": "ROOTS TOUCH UP / SOLID COLOUR ",
+                "non-discounted-price": 64.0,
+                "parallel": false,
+                "position": -2,
+                "price-type": "starts_at",
+                "retail-price": 64.0,
+                "taxes": []
+            },
+            "id": "sv:11394321",
+            "relationships": {
+                "item-group": {
+                    "data": {
+                        "id": "s:9788496",
+                        "type": "offer-item-groups"
+                    }
+                },
+                "service-variant": {
+                    "data": {
+                        "id": "11394321",
+                        "type": "service-variants"
+                    }
+                }
+            },
+            "type": "offer-items"
+        },
+        {
+            "attributes": {
+                "caption": null,
+                "deal-price": null,
+                "description": "Price depends on hair length.                 About this service:\nAllergy test recommendation 24/48h prior to the appointment on walking basis at the venue\nThere may be extra charges for colouring as it depends on hair length, how thick hair is and what kind of colour you have now and what kind of result you would like to get.\nColour correction only by consultation in the salon.\n\nPatch test\n\nTo make sure your skin doesn’t react to the products used in your treatment, please book a patch test for at least 48 hours before your appointment.\n\nAlready had one in the past 6 months at this salon? You might not need to do it again (but please check with the salon to be sure).\n",
+                "duration-for-customer-in-seconds": 18000,
+                "gender": "everyone",
+                "max-duration-for-customer-in-seconds": 18000,
+                "min-duration-for-customer-in-seconds": 18000,
+                "name": "FULL HEAD COLOURING ( Solid Colour, Ombre, Highlights, Babylights, Balayage)",
+                "non-discounted-price": 180.0,
+                "parallel": false,
+                "position": -1,
+                "price-type": "starts_at",
+                "retail-price": 180.0,
+                "taxes": []
+            },
+            "id": "sv:11394335",
+            "relationships": {
+                "item-group": {
+                    "data": {
+                        "id": "s:9788505",
+                        "type": "offer-item-groups"
+                    }
+                },
+                "service-variant": {
+                    "data": {
+                        "id": "11394335",
+                        "type": "service-variants"
+                    }
+                }
+            },
+            "type": "offer-items"
+        },
+        {
+            "attributes": {
+                "caption": null,
+                "deal-price": null,
+                "description": "Eyebrow tinting is for anyone who wants fuller-looking brows.\n\nFirst, your therapist cleans your brows.\nThen the tint is carefully applied and left to process for 10 to 20 minutes.\nNext, the tint is removed using cotton pads and swabs.\n",
+                "duration-for-customer-in-seconds": 1500,
+                "gender": "everyone",
+                "max-duration-for-customer-in-seconds": 1500,
+                "min-duration-for-customer-in-seconds": 1500,
+                "name": "BROW TINT",
+                "non-discounted-price": 17.0,
+                "parallel": false,
+                "position": -8,
+                "price-type": "fixed",
+                "retail-price": 17.0,
+                "taxes": []
+            },
+            "id": "sv:11394372",
+            "relationships": {
+                "item-group": {
+                    "data": {
+                        "id": "s:9788532",
+                        "type": "offer-item-groups"
+                    }
+                },
+                "service-variant": {
+                    "data": {
+                        "id": "11394372",
+                        "type": "service-variants"
+                    }
+                }
+            },
+            "type": "offer-items"
+        },
+        {
+            "attributes": {
+                "caption": null,
+                "deal-price": null,
+                "description": null,
+                "duration-for-customer-in-seconds": 1800,
+                "gender": "everyone",
+                "max-duration-for-customer-in-seconds": 1800,
+                "min-duration-for-customer-in-seconds": 1800,
+                "name": "BROW LAMINATION",
+                "non-discounted-price": 27.0,
+                "parallel": false,
+                "position": -6,
+                "price-type": "fixed",
+                "retail-price": 27.0,
+                "taxes": []
+            },
+            "id": "sv:11394390",
+            "relationships": {
+                "item-group": {
+                    "data": {
+                        "id": "s:9788550",
+                        "type": "offer-item-groups"
+                    }
+                },
+                "service-variant": {
+                    "data": {
+                        "id": "11394390",
+                        "type": "service-variants"
+                    }
+                }
+            },
+            "type": "offer-items"
+        },
+        {
+            "attributes": {
+                "caption": null,
+                "deal-price": null,
+                "description": null,
+                "duration-for-customer-in-seconds": 3600,
+                "gender": "everyone",
+                "max-duration-for-customer-in-seconds": 3600,
+                "min-duration-for-customer-in-seconds": 3600,
+                "name": "BROW LAMINATION & WAX",
+                "non-discounted-price": 30.0,
+                "parallel": false,
+                "position": -5,
+                "price-type": "fixed",
+                "retail-price": 30.0,
+                "taxes": []
+            },
+            "id": "sv:11394399",
+            "relationships": {
+                "item-group": {
+                    "data": {
+                        "id": "s:9788559",
+                        "type": "offer-item-groups"
+                    }
+                },
+                "service-variant": {
+                    "data": {
+                        "id": "11394399",
+                        "type": "service-variants"
+                    }
+                }
+            },
+            "type": "offer-items"
+        },
+        {
+            "attributes": {
+                "caption": null,
+                "deal-price": null,
+                "description": null,
+                "duration-for-customer-in-seconds": 3600,
+                "gender": "everyone",
+                "max-duration-for-customer-in-seconds": 3600,
+                "min-duration-for-customer-in-seconds": 3600,
+                "name": "BROW LAMINATION & TINT",
+                "non-discounted-price": 30.0,
+                "parallel": false,
+                "position": -4,
+                "price-type": "fixed",
+                "retail-price": 30.0,
+                "taxes": []
+            },
+            "id": "sv:11394410",
+            "relationships": {
+                "item-group": {
+                    "data": {
+                        "id": "s:9788565",
+                        "type": "offer-item-groups"
+                    }
+                },
+                "service-variant": {
+                    "data": {
+                        "id": "11394410",
+                        "type": "service-variants"
+                    }
+                }
+            },
+            "type": "offer-items"
+        },
+        {
+            "attributes": {
+                "caption": null,
+                "deal-price": null,
+                "description": null,
+                "duration-for-customer-in-seconds": 4800,
+                "gender": "everyone",
+                "max-duration-for-customer-in-seconds": 4800,
+                "min-duration-for-customer-in-seconds": 4800,
+                "name": "BROW LAMINATION & WAX & TINT",
+                "non-discounted-price": 35.0,
+                "parallel": false,
+                "position": -3,
+                "price-type": "fixed",
+                "retail-price": 35.0,
+                "taxes": []
+            },
+            "id": "sv:11394416",
+            "relationships": {
+                "item-group": {
+                    "data": {
+                        "id": "s:9788571",
+                        "type": "offer-item-groups"
+                    }
+                },
+                "service-variant": {
+                    "data": {
+                        "id": "11394416",
+                        "type": "service-variants"
+                    }
+                }
+            },
+            "type": "offer-items"
+        },
+        {
+            "attributes": {
+                "caption": null,
+                "deal-price": null,
+                "description": null,
+                "duration-for-customer-in-seconds": 1800,
+                "gender": "everyone",
+                "max-duration-for-customer-in-seconds": 1800,
+                "min-duration-for-customer-in-seconds": 1800,
+                "name": "EYELASHES TINT",
+                "non-discounted-price": 10.0,
+                "parallel": false,
+                "position": -2,
+                "price-type": "fixed",
+                "retail-price": 10.0,
+                "taxes": []
+            },
+            "id": "sv:11394449",
+            "relationships": {
+                "item-group": {
+                    "data": {
+                        "id": "s:9788604",
+                        "type": "offer-item-groups"
+                    }
+                },
+                "service-variant": {
+                    "data": {
+                        "id": "11394449",
+                        "type": "service-variants"
+                    }
+                }
+            },
+            "type": "offer-items"
+        },
+        {
+            "attributes": {
+                "caption": null,
+                "deal-price": null,
+                "description": null,
+                "duration-for-customer-in-seconds": 5400,
+                "gender": "everyone",
+                "max-duration-for-customer-in-seconds": 5400,
+                "min-duration-for-customer-in-seconds": 5400,
+                "name": "EYELASHES LAMINATION & TINT",
+                "non-discounted-price": 35.0,
+                "parallel": false,
+                "position": -1,
+                "price-type": "fixed",
+                "retail-price": 35.0,
+                "taxes": []
+            },
+            "id": "sv:11394458",
+            "relationships": {
+                "item-group": {
+                    "data": {
+                        "id": "s:9788613",
+                        "type": "offer-item-groups"
+                    }
+                },
+                "service-variant": {
+                    "data": {
+                        "id": "11394458",
+                        "type": "service-variants"
+                    }
+                }
+            },
+            "type": "offer-items"
+        },
+        {
+            "attributes": {
+                "caption": "Short",
+                "deal-price": null,
+                "description": "Extend your nails to the desired length using our Hard gel or Acrylic Gel systems. Natural feeling and looking nail enhancements. Completed with gel polish application. The service includes cuticle treatment (oil).",
+                "duration-for-customer-in-seconds": 9000,
+                "gender": "everyone",
+                "max-duration-for-customer-in-seconds": 9000,
+                "min-duration-for-customer-in-seconds": 9000,
+                "name": "NAIL EXTENSION",
+                "non-discounted-price": 45.0,
+                "parallel": false,
+                "position": -10,
+                "price-type": "fixed",
+                "retail-price": 45.0,
+                "taxes": []
+            },
+            "id": "sv:11394645",
+            "relationships": {
+                "item-group": {
+                    "data": {
+                        "id": "s:9788769",
+                        "type": "offer-item-groups"
+                    }
+                },
+                "service-variant": {
+                    "data": {
+                        "id": "11394645",
+                        "type": "service-variants"
+                    }
+                }
+            },
+            "type": "offer-items"
+        },
+        {
+            "attributes": {
+                "caption": "Medium",
+                "deal-price": null,
+                "description": "Extend your nails to the desired length using our Hard gel or Acrylic Gel systems. Natural feeling and looking nail enhancements. Completed with gel polish application. The service includes cuticle treatment (oil).",
+                "duration-for-customer-in-seconds": 9900,
+                "gender": "everyone",
+                "max-duration-for-customer-in-seconds": 9900,
+                "min-duration-for-customer-in-seconds": 9900,
+                "name": "NAIL EXTENSION",
+                "non-discounted-price": 50.0,
+                "parallel": false,
+                "position": -10,
+                "price-type": "fixed",
+                "retail-price": 50.0,
+                "taxes": []
+            },
+            "id": "sv:11394646",
+            "relationships": {
+                "item-group": {
+                    "data": {
+                        "id": "s:9788769",
+                        "type": "offer-item-groups"
+                    }
+                },
+                "service-variant": {
+                    "data": {
+                        "id": "11394646",
+                        "type": "service-variants"
+                    }
+                }
+            },
+            "type": "offer-items"
+        },
+        {
+            "attributes": {
+                "caption": "Long",
+                "deal-price": null,
+                "description": "Extend your nails to the desired length using our Hard gel or Acrylic Gel systems. Natural feeling and looking nail enhancements. Completed with gel polish application. The service includes cuticle treatment (oil).",
+                "duration-for-customer-in-seconds": 11700,
+                "gender": "everyone",
+                "max-duration-for-customer-in-seconds": 11700,
+                "min-duration-for-customer-in-seconds": 11700,
+                "name": "NAIL EXTENSION",
+                "non-discounted-price": 55.0,
+                "parallel": false,
+                "position": -10,
+                "price-type": "fixed",
+                "retail-price": 55.0,
+                "taxes": []
+            },
+            "id": "sv:11394647",
+            "relationships": {
+                "item-group": {
+                    "data": {
+                        "id": "s:9788769",
+                        "type": "offer-item-groups"
+                    }
+                },
+                "service-variant": {
+                    "data": {
+                        "id": "11394647",
+                        "type": "service-variants"
+                    }
+                }
+            },
+            "type": "offer-items"
+        },
+        {
+            "attributes": {
+                "caption": null,
+                "deal-price": null,
+                "description": "Extend your nails to the desired length using our hard gel systems in various techniques for your aspiration. A perfect French will give your nails that immaculate look of a smart looking nail enhancements. The service includes cuticle treatment (oil).",
+                "duration-for-customer-in-seconds": 14400,
+                "gender": "everyone",
+                "max-duration-for-customer-in-seconds": 14400,
+                "min-duration-for-customer-in-seconds": 14400,
+                "name": "SCULPTED EXTENSION",
+                "non-discounted-price": 60.0,
+                "parallel": false,
+                "position": -7,
+                "price-type": "fixed",
+                "retail-price": 60.0,
+                "taxes": []
+            },
+            "id": "sv:11394657",
+            "relationships": {
+                "item-group": {
+                    "data": {
+                        "id": "s:9788779",
+                        "type": "offer-item-groups"
+                    }
+                },
+                "service-variant": {
+                    "data": {
+                        "id": "11394657",
+                        "type": "service-variants"
+                    }
+                }
+            },
+            "type": "offer-items"
+        },
+        {
+            "attributes": {
+                "caption": null,
+                "deal-price": null,
+                "description": "Extend your nails to the desired length with highly skilled using our hard gel systems.  is sculpted within the nail extension itself using hard gel to  for longer. Natural feeling and looking nail enhancements. Completed with gel polish application. The service includes cuticle treatment (oil).",
+                "duration-for-customer-in-seconds": 14400,
+                "gender": "everyone",
+                "max-duration-for-customer-in-seconds": 14400,
+                "min-duration-for-customer-in-seconds": 14400,
+                "name": "SCULPTED FRENCH EXTENSION (ART)",
+                "non-discounted-price": 70.0,
+                "parallel": false,
+                "position": -6,
+                "price-type": "fixed",
+                "retail-price": 70.0,
+                "taxes": []
+            },
+            "id": "sv:11394670",
+            "relationships": {
+                "item-group": {
+                    "data": {
+                        "id": "s:9788792",
+                        "type": "offer-item-groups"
+                    }
+                },
+                "service-variant": {
+                    "data": {
+                        "id": "11394670",
+                        "type": "service-variants"
+                    }
+                }
+            },
+            "type": "offer-items"
+        },
+        {
+            "attributes": {
+                "caption": "with gel colour overlay ",
+                "deal-price": null,
+                "description": "Get your feet ready for a special event or a vacation with a complete \"makeover\".\n\nThe treatment includes nail shape correction, cuticle prep (e-file) with gel colour overlay ",
+                "duration-for-customer-in-seconds": 3600,
+                "gender": "everyone",
+                "max-duration-for-customer-in-seconds": 3600,
+                "min-duration-for-customer-in-seconds": 3600,
+                "name": "HYGIENIC PEDICURE",
+                "non-discounted-price": 35.0,
+                "parallel": false,
+                "position": -5,
+                "price-type": "starts_at",
+                "retail-price": 35.0,
+                "taxes": []
+            },
+            "id": "sv:11394679",
+            "relationships": {
+                "item-group": {
+                    "data": {
+                        "id": "s:9788801",
+                        "type": "offer-item-groups"
+                    }
+                },
+                "service-variant": {
+                    "data": {
+                        "id": "11394679",
+                        "type": "service-variants"
+                    }
+                }
+            },
+            "type": "offer-items"
+        },
+        {
+            "attributes": {
+                "caption": "toes only",
+                "deal-price": null,
+                "description": "Get your feet ready for a special event or a vacation with a complete \"makeover\".\n\nThe treatment includes nail shape correction, cuticle prep (e-file) with gel colour overlay ",
+                "duration-for-customer-in-seconds": 1800,
+                "gender": "everyone",
+                "max-duration-for-customer-in-seconds": 1800,
+                "min-duration-for-customer-in-seconds": 1800,
+                "name": "HYGIENIC PEDICURE",
+                "non-discounted-price": 20.0,
+                "parallel": false,
+                "position": -5,
+                "price-type": "starts_at",
+                "retail-price": 20.0,
+                "taxes": []
+            },
+            "id": "sv:11394680",
+            "relationships": {
+                "item-group": {
+                    "data": {
+                        "id": "s:9788801",
+                        "type": "offer-item-groups"
+                    }
+                },
+                "service-variant": {
+                    "data": {
+                        "id": "11394680",
+                        "type": "service-variants"
+                    }
+                }
+            },
+            "type": "offer-items"
+        },
+        {
+            "attributes": {
+                "caption": null,
+                "deal-price": null,
+                "description": "A hygiene pedicure followed by application of our Signature gel polish colour range.",
+                "duration-for-customer-in-seconds": 5400,
+                "gender": "everyone",
+                "max-duration-for-customer-in-seconds": 5400,
+                "min-duration-for-customer-in-seconds": 5400,
+                "name": "COMPLETE GEL PEDICURE",
+                "non-discounted-price": 45.0,
+                "parallel": false,
+                "position": -4,
+                "price-type": "fixed",
+                "retail-price": 45.0,
+                "taxes": []
+            },
+            "id": "sv:11394690",
+            "relationships": {
+                "item-group": {
+                    "data": {
+                        "id": "s:9788810",
+                        "type": "offer-item-groups"
+                    }
+                },
+                "service-variant": {
+                    "data": {
+                        "id": "11394690",
+                        "type": "service-variants"
+                    }
+                }
+            },
+            "type": "offer-items"
+        },
+        {
+            "attributes": {
+                "caption": null,
+                "deal-price": null,
+                "description": "A hygiene pedicure followed by application of our Signature gel polish colour range with design.",
+                "duration-for-customer-in-seconds": 6600,
+                "gender": "everyone",
+                "max-duration-for-customer-in-seconds": 6600,
+                "min-duration-for-customer-in-seconds": 6600,
+                "name": "FRENCH PEDICURE",
+                "non-discounted-price": 50.0,
+                "parallel": false,
+                "position": -3,
+                "price-type": "fixed",
+                "retail-price": 50.0,
+                "taxes": []
+            },
+            "id": "sv:11394706",
+            "relationships": {
+                "item-group": {
+                    "data": {
+                        "id": "s:9788823",
+                        "type": "offer-item-groups"
+                    }
+                },
+                "service-variant": {
+                    "data": {
+                        "id": "11394706",
+                        "type": "service-variants"
+                    }
+                }
+            },
+            "type": "offer-items"
+        },
+        {
+            "attributes": {
+                "caption": null,
+                "deal-price": null,
+                "description": "A luxurious treat for your hands with a sugar scrub and application of  mask to nourish and soften the skin. ",
+                "duration-for-customer-in-seconds": 900,
+                "gender": "everyone",
+                "max-duration-for-customer-in-seconds": 900,
+                "min-duration-for-customer-in-seconds": 900,
+                "name": "OPI HAND SPA TREATMENT",
+                "non-discounted-price": 10.0,
+                "parallel": false,
+                "position": -2,
+                "price-type": "fixed",
+                "retail-price": 10.0,
+                "taxes": []
+            },
+            "id": "sv:11394737",
+            "relationships": {
+                "item-group": {
+                    "data": {
+                        "id": "s:9788845",
+                        "type": "offer-item-groups"
+                    }
+                },
+                "service-variant": {
+                    "data": {
+                        "id": "11394737",
+                        "type": "service-variants"
+                    }
+                }
+            },
+            "type": "offer-items"
+        },
+        {
+            "attributes": {
+                "caption": null,
+                "deal-price": null,
+                "description": "Add a pampering session to your hygienic or gel pedicure with a sugar scrub and softening lotion. ",
+                "duration-for-customer-in-seconds": 1200,
+                "gender": "everyone",
+                "max-duration-for-customer-in-seconds": 1200,
+                "min-duration-for-customer-in-seconds": 1200,
+                "name": "OPI FOOT SPA TREATMENT",
+                "non-discounted-price": 15.0,
+                "parallel": false,
+                "position": -1,
+                "price-type": "fixed",
+                "retail-price": 15.0,
+                "taxes": []
+            },
+            "id": "sv:11394754",
+            "relationships": {
+                "item-group": {
+                    "data": {
+                        "id": "s:9788862",
+                        "type": "offer-item-groups"
+                    }
+                },
+                "service-variant": {
+                    "data": {
+                        "id": "11394754",
+                        "type": "service-variants"
+                    }
+                }
+            },
+            "type": "offer-items"
+        },
+        {
+            "attributes": {
+                "caption": null,
+                "deal-price": null,
+                "description": "Dry haircut with style ",
+                "duration-for-customer-in-seconds": 1800,
+                "gender": "everyone",
+                "max-duration-for-customer-in-seconds": 1800,
+                "min-duration-for-customer-in-seconds": 1800,
+                "name": "DRY HAIRCUT / RESTYLIG ",
+                "non-discounted-price": 30.0,
+                "parallel": false,
+                "position": -14,
+                "price-type": "starts_at",
+                "retail-price": 30.0,
+                "taxes": []
+            },
+            "id": "sv:11543747",
+            "relationships": {
+                "item-group": {
+                    "data": {
+                        "id": "s:9920402",
+                        "type": "offer-item-groups"
+                    }
+                },
+                "service-variant": {
+                    "data": {
+                        "id": "11543747",
+                        "type": "service-variants"
+                    }
+                }
+            },
+            "type": "offer-items"
+        },
+        {
+            "attributes": {
+                "caption": null,
+                "deal-price": null,
+                "description": "Design from £1 for a one nail.",
+                "duration-for-customer-in-seconds": 300,
+                "gender": "everyone",
+                "max-duration-for-customer-in-seconds": 300,
+                "min-duration-for-customer-in-seconds": 300,
+                "name": "SPECIAL DESIGN",
+                "non-discounted-price": 1.0,
+                "parallel": false,
+                "position": -9,
+                "price-type": "starts_at",
+                "retail-price": 1.0,
+                "taxes": []
+            },
+            "id": "sv:11996631",
+            "relationships": {
+                "item-group": {
+                    "data": {
+                        "id": "s:10318866",
+                        "type": "offer-item-groups"
+                    }
+                },
+                "service-variant": {
+                    "data": {
+                        "id": "11996631",
+                        "type": "service-variants"
+                    }
+                }
+            },
+            "type": "offer-items"
+        },
+        {
+            "attributes": {
+                "caption": null,
+                "deal-price": null,
+                "description": "French design (ten fingers)",
+                "duration-for-customer-in-seconds": 1800,
+                "gender": "everyone",
+                "max-duration-for-customer-in-seconds": 1800,
+                "min-duration-for-customer-in-seconds": 1800,
+                "name": "FRENCH DESIGN",
+                "non-discounted-price": 10.0,
+                "parallel": false,
+                "position": -8,
+                "price-type": "fixed",
+                "retail-price": 10.0,
+                "taxes": []
+            },
+            "id": "sv:11996653",
+            "relationships": {
+                "item-group": {
+                    "data": {
+                        "id": "s:10318882",
+                        "type": "offer-item-groups"
+                    }
+                },
+                "service-variant": {
+                    "data": {
+                        "id": "11996653",
+                        "type": "service-variants"
+                    }
+                }
+            },
+            "type": "offer-items"
+        },
+        {
+            "attributes": {
+                "caption": null,
+                "deal-price": null,
+                "description": null,
+                "duration-for-customer-in-seconds": 1800,
+                "gender": "everyone",
+                "max-duration-for-customer-in-seconds": 1800,
+                "min-duration-for-customer-in-seconds": 1800,
+                "name": "GEL POLISH REMOVAL",
+                "non-discounted-price": 10.0,
+                "parallel": false,
+                "position": -16,
+                "price-type": "fixed",
+                "retail-price": 10.0,
+                "taxes": []
+            },
+            "id": "sv:12018867",
+            "relationships": {
+                "item-group": {
+                    "data": {
+                        "id": "s:10338548",
+                        "type": "offer-item-groups"
+                    }
+                },
+                "service-variant": {
+                    "data": {
+                        "id": "12018867",
+                        "type": "service-variants"
+                    }
+                }
+            },
+            "type": "offer-items"
+        },
+        {
+            "attributes": {
+                "caption": null,
+                "deal-price": 0.0,
+                "description": "Come in for a friendly chat with our hairstylist to discuss a wide range of hair, treatments and hair colour options available in our salon. ",
+                "duration-for-customer-in-seconds": 900,
+                "gender": "everyone",
+                "max-duration-for-customer-in-seconds": 900,
+                "min-duration-for-customer-in-seconds": 900,
+                "name": "HAIR CONSULTATION ",
+                "non-discounted-price": 5.0,
+                "parallel": false,
+                "position": -16,
+                "price-type": "fixed",
+                "retail-price": 5.0,
+                "taxes": []
+            },
+            "id": "sv:12209099",
+            "relationships": {
+                "deal": {
+                    "data": {
+                        "id": "discount:flash_sale_725843",
+                        "type": "automatic-discounts"
+                    }
+                },
+                "item-group": {
+                    "data": {
+                        "id": "s:10507248",
+                        "type": "offer-item-groups"
+                    }
+                },
+                "service-variant": {
+                    "data": {
+                        "id": "12209099",
+                        "type": "service-variants"
+                    }
+                }
+            },
+            "type": "offer-items"
+        },
+        {
+            "attributes": {
+                "caption": null,
+                "deal-price": null,
+                "description": "A follow up appointment after your initial gel nail strengthen or extension manicure. We recommend a gel rebalance service every 3 - 4 weeks to keep your natural nails healthy. Completed with gel polish application, cuticle work (e-file). ",
+                "duration-for-customer-in-seconds": 7200,
+                "gender": "everyone",
+                "max-duration-for-customer-in-seconds": 7200,
+                "min-duration-for-customer-in-seconds": 7200,
+                "name": "INFILL / GEL REBALANCE",
+                "non-discounted-price": 45.0,
+                "parallel": false,
+                "position": -11,
+                "price-type": "fixed",
+                "retail-price": 45.0,
+                "taxes": []
+            },
+            "id": "sv:12701620",
+            "relationships": {
+                "item-group": {
+                    "data": {
+                        "id": "s:9780289",
+                        "type": "offer-item-groups"
+                    }
+                },
+                "service-variant": {
+                    "data": {
+                        "id": "12701620",
+                        "type": "service-variants"
+                    }
+                }
+            },
+            "type": "offer-items"
+        },
+        {
+            "attributes": {
+                "caption": "with hard skin peeling",
+                "deal-price": null,
+                "description": "Get your feet ready for a special event or a vacation with a complete \"makeover\".\n\nThe treatment includes nail shape correction, cuticle prep (e-file) with gel colour overlay ",
+                "duration-for-customer-in-seconds": 3600,
+                "gender": "everyone",
+                "max-duration-for-customer-in-seconds": 3600,
+                "min-duration-for-customer-in-seconds": 3600,
+                "name": "HYGIENIC PEDICURE",
+                "non-discounted-price": 40.0,
+                "parallel": false,
+                "position": -5,
+                "price-type": "fixed",
+                "retail-price": 40.0,
+                "taxes": []
+            },
+            "id": "sv:12701654",
+            "relationships": {
+                "item-group": {
+                    "data": {
+                        "id": "s:9788801",
+                        "type": "offer-item-groups"
+                    }
+                },
+                "service-variant": {
+                    "data": {
+                        "id": "12701654",
+                        "type": "service-variants"
+                    }
+                }
+            },
+            "type": "offer-items"
+        },
+        {
+            "attributes": {
+                "caption": null,
+                "deal-price": null,
+                "description": "Hair ends only",
+                "duration-for-customer-in-seconds": 1500,
+                "gender": "everyone",
+                "max-duration-for-customer-in-seconds": 1500,
+                "min-duration-for-customer-in-seconds": 1500,
+                "name": "DRY HAIRCUT ",
+                "non-discounted-price": 20.0,
+                "parallel": false,
+                "position": -15,
+                "price-type": "fixed",
+                "retail-price": 20.0,
+                "taxes": []
+            },
+            "id": "sv:12701714",
+            "relationships": {
+                "item-group": {
+                    "data": {
+                        "id": "s:9780288",
+                        "type": "offer-item-groups"
+                    }
+                },
+                "service-variant": {
+                    "data": {
+                        "id": "12701714",
+                        "type": "service-variants"
+                    }
+                }
+            },
+            "type": "offer-items"
+        },
+        {
+            "attributes": {
+                "caption": null,
+                "deal-price": null,
+                "description": null,
+                "duration-for-customer-in-seconds": 5400,
+                "gender": "everyone",
+                "max-duration-for-customer-in-seconds": 5400,
+                "min-duration-for-customer-in-seconds": 5400,
+                "name": "EYELASH EXTENSIONS",
+                "non-discounted-price": 35.0,
+                "parallel": false,
+                "position": -10,
+                "price-type": "fixed",
+                "retail-price": 35.0,
+                "taxes": []
+            },
+            "id": "sv:13219407",
+            "relationships": {
+                "item-group": {
+                    "data": {
+                        "id": "s:11396755",
+                        "type": "offer-item-groups"
+                    }
+                },
+                "service-variant": {
+                    "data": {
+                        "id": "13219407",
+                        "type": "service-variants"
+                    }
+                }
+            },
+            "type": "offer-items"
+        },
+        {
+            "attributes": {
+                "caption": null,
+                "deal-price": null,
+                "description": "Classic lashes are semi-permanent extensions placed individually onto each natural lash. Providing a fuller but natural look, they're created for long-term wear.\n\nFirst, your therapist preps your eyes with eye pads and tape and cleans your eyelashes with a prep solution.\nThen, the lash is carefully glued in place according to your desired look.\nLastly, your therapist combs your eyelashes to finish the look.",
+                "duration-for-customer-in-seconds": 7200,
+                "gender": "everyone",
+                "max-duration-for-customer-in-seconds": 7200,
+                "min-duration-for-customer-in-seconds": 7200,
+                "name": "Classic Individual",
+                "non-discounted-price": 35.0,
+                "parallel": false,
+                "position": -2,
+                "price-type": "starts_at",
+                "retail-price": 35.0,
+                "taxes": []
+            },
+            "id": "sv:13309274",
+            "relationships": {
+                "item-group": {
+                    "data": {
+                        "id": "s:11476022",
+                        "type": "offer-item-groups"
+                    }
+                },
+                "service-variant": {
+                    "data": {
+                        "id": "13309274",
+                        "type": "service-variants"
+                    }
+                }
+            },
+            "type": "offer-items"
+        },
+        {
+            "attributes": {
+                "caption": null,
+                "deal-price": null,
+                "description": "Infills are recommended every 2 weeks and are the best way to maintain your perfect eyelash extensions.\n\nTo start, a consultation is done to achieve the best results.\nAfter, sit back while your beautician replaces each missing lash.\nTo finish, your beautician cross-checks your lashes to ensure there is a complete coverage.\nLet the talented eyelash artists at this salon restore your full lashes.",
+                "duration-for-customer-in-seconds": 3600,
+                "gender": "everyone",
+                "max-duration-for-customer-in-seconds": 3600,
+                "min-duration-for-customer-in-seconds": 3600,
+                "name": "Infills",
+                "non-discounted-price": 20.0,
+                "parallel": false,
+                "position": -1,
+                "price-type": "starts_at",
+                "retail-price": 20.0,
+                "taxes": []
+            },
+            "id": "sv:13309527",
+            "relationships": {
+                "item-group": {
+                    "data": {
+                        "id": "s:11476267",
+                        "type": "offer-item-groups"
+                    }
+                },
+                "service-variant": {
+                    "data": {
+                        "id": "13309527",
+                        "type": "service-variants"
+                    }
+                }
+            },
+            "type": "offer-items"
+        },
+        {
+            "attributes": {
+                "caption": null,
+                "deal-price": null,
+                "description": "A blend of Volume and Classic. The one to choose if you’re struggling to – well – choose.\n\nFirst up, prep. Your therapist will clean your lashes with eye pads and a prep solution.\nYour choice of lashes will be applied – a mixture of individual and volume lashes, to each individual lash – held in place with specialist glue.\nYour lashes are combed through to finish the look.",
+                "duration-for-customer-in-seconds": 9900,
+                "gender": "everyone",
+                "max-duration-for-customer-in-seconds": 9900,
+                "min-duration-for-customer-in-seconds": 9900,
+                "name": "Hybrid",
+                "non-discounted-price": 50.0,
+                "parallel": false,
+                "position": -3,
+                "price-type": "starts_at",
+                "retail-price": 50.0,
+                "taxes": []
+            },
+            "id": "sv:13309676",
+            "relationships": {
+                "item-group": {
+                    "data": {
+                        "id": "s:11476411",
+                        "type": "offer-item-groups"
+                    }
+                },
+                "service-variant": {
+                    "data": {
+                        "id": "13309676",
+                        "type": "service-variants"
+                    }
+                }
+            },
+            "type": "offer-items"
+        },
+        {
+            "attributes": {
+                "caption": null,
+                "deal-price": null,
+                "description": "Full Volume 2D/3D semi-permanent lashes are the most popular advanced technique. Multiple lashes are attached to each individual natural lash without putting any strain on the lashes, creating volume and definition. Ideal for long-term wear.\n\nFirst, your therapist preps your eyes with eye pads and tape and cleans your eyelashes with a prep solution.\nThen, the lash is carefully glued in place according to your desired look.\nLastly, your therapist combs your eyelashes to finish the look.",
+                "duration-for-customer-in-seconds": 9000,
+                "gender": "everyone",
+                "max-duration-for-customer-in-seconds": 9000,
+                "min-duration-for-customer-in-seconds": 9000,
+                "name": "Full Volume 2D/3D",
+                "non-discounted-price": 40.0,
+                "parallel": false,
+                "position": -4,
+                "price-type": "starts_at",
+                "retail-price": 40.0,
+                "taxes": []
+            },
+            "id": "sv:13309739",
+            "relationships": {
+                "item-group": {
+                    "data": {
+                        "id": "s:11476469",
+                        "type": "offer-item-groups"
+                    }
+                },
+                "service-variant": {
+                    "data": {
+                        "id": "13309739",
+                        "type": "service-variants"
+                    }
+                }
+            },
+            "type": "offer-items"
+        },
+        {
+            "attributes": {
+                "caption": null,
+                "deal-price": null,
+                "description": null,
+                "duration-for-customer-in-seconds": 1800,
+                "gender": "everyone",
+                "max-duration-for-customer-in-seconds": 1800,
+                "min-duration-for-customer-in-seconds": 1800,
+                "name": "UPPER LIP & CHIN",
+                "non-discounted-price": 18.0,
+                "parallel": false,
+                "position": -11,
+                "price-type": "fixed",
+                "retail-price": 18.0,
+                "taxes": []
+            },
+            "id": "sv:13335870",
+            "relationships": {
+                "item-group": {
+                    "data": {
+                        "id": "s:11499352",
+                        "type": "offer-item-groups"
+                    }
+                },
+                "service-variant": {
+                    "data": {
+                        "id": "13335870",
+                        "type": "service-variants"
+                    }
+                }
+            },
+            "type": "offer-items"
+        },
+        {
+            "attributes": {
+                "caption": null,
+                "deal-price": null,
+                "description": null,
+                "duration-for-customer-in-seconds": 1800,
+                "gender": "everyone",
+                "max-duration-for-customer-in-seconds": 1800,
+                "min-duration-for-customer-in-seconds": 1800,
+                "name": "UNDERARM",
+                "non-discounted-price": 18.0,
+                "parallel": false,
+                "position": -9,
+                "price-type": "fixed",
+                "retail-price": 18.0,
+                "taxes": []
+            },
+            "id": "sv:13335938",
+            "relationships": {
+                "item-group": {
+                    "data": {
+                        "id": "s:11499413",
+                        "type": "offer-item-groups"
+                    }
+                },
+                "service-variant": {
+                    "data": {
+                        "id": "13335938",
+                        "type": "service-variants"
+                    }
+                }
+            },
+            "type": "offer-items"
+        },
+        {
+            "attributes": {
+                "caption": "FOREARM",
+                "deal-price": null,
+                "description": null,
+                "duration-for-customer-in-seconds": 2100,
+                "gender": "everyone",
+                "max-duration-for-customer-in-seconds": 2100,
+                "min-duration-for-customer-in-seconds": 2100,
+                "name": "ARM WAXING",
+                "non-discounted-price": 22.0,
+                "parallel": false,
+                "position": -8,
+                "price-type": "fixed",
+                "retail-price": 22.0,
+                "taxes": []
+            },
+            "id": "sv:13336044",
+            "relationships": {
+                "item-group": {
+                    "data": {
+                        "id": "s:11499510",
+                        "type": "offer-item-groups"
+                    }
+                },
+                "service-variant": {
+                    "data": {
+                        "id": "13336044",
+                        "type": "service-variants"
+                    }
+                }
+            },
+            "type": "offer-items"
+        },
+        {
+            "attributes": {
+                "caption": "1/2 LEG",
+                "deal-price": null,
+                "description": null,
+                "duration-for-customer-in-seconds": 2100,
+                "gender": "everyone",
+                "max-duration-for-customer-in-seconds": 2100,
+                "min-duration-for-customer-in-seconds": 2100,
+                "name": "LEG WAXING",
+                "non-discounted-price": 25.0,
+                "parallel": false,
+                "position": -6,
+                "price-type": "fixed",
+                "retail-price": 25.0,
+                "taxes": []
+            },
+            "id": "sv:13336467",
+            "relationships": {
+                "item-group": {
+                    "data": {
+                        "id": "s:11499895",
+                        "type": "offer-item-groups"
+                    }
+                },
+                "service-variant": {
+                    "data": {
+                        "id": "13336467",
+                        "type": "service-variants"
+                    }
+                }
+            },
+            "type": "offer-items"
+        },
+        {
+            "attributes": {
+                "caption": "SIMPLY BIKINI",
+                "deal-price": null,
+                "description": "SIMPLY - Tidy up those hairs that stray from the pant line!\nG - STRING - Extended bikini, higher than a basic but keeping everything underneath.\nBRAZILIAN - Everything but only a strip or triangle is your aim!\nHOLLYWOOD - To be bare down there!",
+                "duration-for-customer-in-seconds": 1800,
+                "gender": "everyone",
+                "max-duration-for-customer-in-seconds": 1800,
+                "min-duration-for-customer-in-seconds": 1800,
+                "name": "BIKINI",
+                "non-discounted-price": 22.0,
+                "parallel": false,
+                "position": -4,
+                "price-type": "fixed",
+                "retail-price": 22.0,
+                "taxes": []
+            },
+            "id": "sv:13336682",
+            "relationships": {
+                "item-group": {
+                    "data": {
+                        "id": "s:11500074",
+                        "type": "offer-item-groups"
+                    }
+                },
+                "service-variant": {
+                    "data": {
+                        "id": "13336682",
+                        "type": "service-variants"
+                    }
+                }
+            },
+            "type": "offer-items"
+        },
+        {
+            "attributes": {
+                "caption": "FULL LEG",
+                "deal-price": null,
+                "description": null,
+                "duration-for-customer-in-seconds": 2700,
+                "gender": "everyone",
+                "max-duration-for-customer-in-seconds": 2700,
+                "min-duration-for-customer-in-seconds": 2700,
+                "name": "LEG WAXING",
+                "non-discounted-price": 32.0,
+                "parallel": false,
+                "position": -6,
+                "price-type": "fixed",
+                "retail-price": 32.0,
+                "taxes": []
+            },
+            "id": "sv:13337130",
+            "relationships": {
+                "item-group": {
+                    "data": {
+                        "id": "s:11499895",
+                        "type": "offer-item-groups"
+                    }
+                },
+                "service-variant": {
+                    "data": {
+                        "id": "13337130",
+                        "type": "service-variants"
+                    }
+                }
+            },
+            "type": "offer-items"
+        },
+        {
+            "attributes": {
+                "caption": "FULL LEG & BRAZILIAN ",
+                "deal-price": null,
+                "description": null,
+                "duration-for-customer-in-seconds": 6600,
+                "gender": "everyone",
+                "max-duration-for-customer-in-seconds": 6600,
+                "min-duration-for-customer-in-seconds": 6600,
+                "name": "LEG WAXING",
+                "non-discounted-price": 55.0,
+                "parallel": false,
+                "position": -6,
+                "price-type": "fixed",
+                "retail-price": 55.0,
+                "taxes": []
+            },
+            "id": "sv:13337360",
+            "relationships": {
+                "item-group": {
+                    "data": {
+                        "id": "s:11499895",
+                        "type": "offer-item-groups"
+                    }
+                },
+                "service-variant": {
+                    "data": {
+                        "id": "13337360",
+                        "type": "service-variants"
+                    }
+                }
+            },
+            "type": "offer-items"
+        },
+        {
+            "attributes": {
+                "caption": "FULL LEG & BIKINI / G - STRING",
+                "deal-price": null,
+                "description": null,
+                "duration-for-customer-in-seconds": 5400,
+                "gender": "everyone",
+                "max-duration-for-customer-in-seconds": 5400,
+                "min-duration-for-customer-in-seconds": 5400,
+                "name": "LEG WAXING",
+                "non-discounted-price": 42.0,
+                "parallel": false,
+                "position": -6,
+                "price-type": "fixed",
+                "retail-price": 42.0,
+                "taxes": []
+            },
+            "id": "sv:13337361",
+            "relationships": {
+                "item-group": {
+                    "data": {
+                        "id": "s:11499895",
+                        "type": "offer-item-groups"
+                    }
+                },
+                "service-variant": {
+                    "data": {
+                        "id": "13337361",
+                        "type": "service-variants"
+                    }
+                }
+            },
+            "type": "offer-items"
+        },
+        {
+            "attributes": {
+                "caption": "1/2 LEG & BRAZILIAN ",
+                "deal-price": null,
+                "description": null,
+                "duration-for-customer-in-seconds": 4500,
+                "gender": "everyone",
+                "max-duration-for-customer-in-seconds": 4500,
+                "min-duration-for-customer-in-seconds": 4500,
+                "name": "LEG WAXING",
+                "non-discounted-price": 45.0,
+                "parallel": false,
+                "position": -6,
+                "price-type": "fixed",
+                "retail-price": 45.0,
+                "taxes": []
+            },
+            "id": "sv:13337362",
+            "relationships": {
+                "item-group": {
+                    "data": {
+                        "id": "s:11499895",
+                        "type": "offer-item-groups"
+                    }
+                },
+                "service-variant": {
+                    "data": {
+                        "id": "13337362",
+                        "type": "service-variants"
+                    }
+                }
+            },
+            "type": "offer-items"
+        },
+        {
+            "attributes": {
+                "caption": "1/2 & BIKINI / G - STRING",
+                "deal-price": null,
+                "description": null,
+                "duration-for-customer-in-seconds": 3600,
+                "gender": "everyone",
+                "max-duration-for-customer-in-seconds": 3600,
+                "min-duration-for-customer-in-seconds": 3600,
+                "name": "LEG WAXING",
+                "non-discounted-price": 40.0,
+                "parallel": false,
+                "position": -6,
+                "price-type": "fixed",
+                "retail-price": 40.0,
+                "taxes": []
+            },
+            "id": "sv:13337363",
+            "relationships": {
+                "item-group": {
+                    "data": {
+                        "id": "s:11499895",
+                        "type": "offer-item-groups"
+                    }
+                },
+                "service-variant": {
+                    "data": {
+                        "id": "13337363",
+                        "type": "service-variants"
+                    }
+                }
+            },
+            "type": "offer-items"
+        },
+        {
+            "attributes": {
+                "caption": "FULL ARM",
+                "deal-price": null,
+                "description": null,
+                "duration-for-customer-in-seconds": 3300,
+                "gender": "everyone",
+                "max-duration-for-customer-in-seconds": 3300,
+                "min-duration-for-customer-in-seconds": 3300,
+                "name": "ARM WAXING",
+                "non-discounted-price": 25.0,
+                "parallel": false,
+                "position": -8,
+                "price-type": "fixed",
+                "retail-price": 25.0,
+                "taxes": []
+            },
+            "id": "sv:13337412",
+            "relationships": {
+                "item-group": {
+                    "data": {
+                        "id": "s:11499510",
+                        "type": "offer-item-groups"
+                    }
+                },
+                "service-variant": {
+                    "data": {
+                        "id": "13337412",
+                        "type": "service-variants"
+                    }
+                }
+            },
+            "type": "offer-items"
+        },
+        {
+            "attributes": {
+                "caption": "BRAZILIAN / HOLLYWOOD",
+                "deal-price": null,
+                "description": "SIMPLY - Tidy up those hairs that stray from the pant line!\nG - STRING - Extended bikini, higher than a basic but keeping everything underneath.\nBRAZILIAN - Everything but only a strip or triangle is your aim!\nHOLLYWOOD - To be bare down there!",
+                "duration-for-customer-in-seconds": 3000,
+                "gender": "everyone",
+                "max-duration-for-customer-in-seconds": 3000,
+                "min-duration-for-customer-in-seconds": 3000,
+                "name": "BIKINI",
+                "non-discounted-price": 35.0,
+                "parallel": false,
+                "position": -4,
+                "price-type": "fixed",
+                "retail-price": 35.0,
+                "taxes": []
+            },
+            "id": "sv:13337515",
+            "relationships": {
+                "item-group": {
+                    "data": {
+                        "id": "s:11500074",
+                        "type": "offer-item-groups"
+                    }
+                },
+                "service-variant": {
+                    "data": {
+                        "id": "13337515",
+                        "type": "service-variants"
+                    }
+                }
+            },
+            "type": "offer-items"
+        },
+        {
+            "attributes": {
+                "caption": "G - STRING",
+                "deal-price": null,
+                "description": "SIMPLY - Tidy up those hairs that stray from the pant line!\nG - STRING - Extended bikini, higher than a basic but keeping everything underneath.\nBRAZILIAN - Everything but only a strip or triangle is your aim!\nHOLLYWOOD - To be bare down there!",
+                "duration-for-customer-in-seconds": 2700,
+                "gender": "everyone",
+                "max-duration-for-customer-in-seconds": 2700,
+                "min-duration-for-customer-in-seconds": 2700,
+                "name": "BIKINI",
+                "non-discounted-price": 25.0,
+                "parallel": false,
+                "position": -4,
+                "price-type": "fixed",
+                "retail-price": 25.0,
+                "taxes": []
+            },
+            "id": "sv:13337516",
+            "relationships": {
+                "item-group": {
+                    "data": {
+                        "id": "s:11500074",
+                        "type": "offer-item-groups"
+                    }
+                },
+                "service-variant": {
+                    "data": {
+                        "id": "13337516",
+                        "type": "service-variants"
+                    }
+                }
+            },
+            "type": "offer-items"
+        },
+        {
+            "attributes": {
+                "caption": "2 services",
+                "deal-price": null,
+                "description": null,
+                "duration-for-customer-in-seconds": 3300,
+                "gender": "everyone",
+                "max-duration-for-customer-in-seconds": 3300,
+                "min-duration-for-customer-in-seconds": 3300,
+                "name": "BROW SHAPING & TINT",
+                "non-discounted-price": 34.0,
+                "parallel": false,
+                "position": -7,
+                "price-type": "fixed",
+                "retail-price": 30.0,
+                "taxes": []
+            },
+            "id": "p:255331",
+            "relationships": {
+                "item-group": {
+                    "data": {
+                        "id": "p:255331",
+                        "type": "offer-item-groups"
+                    }
+                },
+                "package": {
+                    "data": {
+                        "id": "255331",
+                        "type": "packages"
+                    }
+                }
+            },
+            "type": "offer-items"
+        }
+    ],
+    "included": [
+        {
+            "attributes": {
+                "description": null,
+                "name": "BEAUTY",
+                "position": 2
+            },
+            "id": "2017149",
+            "type": "offer-item-categories"
+        },
+        {
+            "attributes": {
+                "description": "Come in for a friendly chat with our hairstylist to discuss your hair needs.",
+                "name": "HAIR",
+                "position": 1
+            },
+            "id": "2017150",
+            "type": "offer-item-categories"
+        },
+        {
+            "attributes": {
+                "description": "A follow up appointment after your initial gel nail strengthen or extension manicure. We recommend a gel rebalance service every 3 - 4 weeks to keep your natural nails healthy. Completed with gel polish application, cuticle work (e-file).",
+                "name": "NAILS",
+                "position": 0
+            },
+            "id": "2017151",
+            "type": "offer-item-categories"
+        },
+        {
+            "attributes": {
+                "description": "Patch test\nTo make sure your skin doesn’t react to the products used in your treatment, please book a patch test for at least 48 hours before your appointment.",
+                "name": "EYELASH EXTENSIONS",
+                "position": 3
+            },
+            "id": "2390139",
+            "type": "offer-item-categories"
+        },
+        {
+            "attributes": {
+                "description": null,
+                "name": "WAXING",
+                "position": 4
+            },
+            "id": "2390132",
+            "type": "offer-item-categories"
+        },
+        {
+            "attributes": {
+                "description": "Perfect eyebrows mean perfect arches. (Wax & Tweezers)\n\nFirst, you and your wax therapist discuss your preferences and how you want your brows shaped.\nThen, the wax is carefully applied in the direction of hair growth.\nOnce dry, the wax is removed opposite the direction of hair growth.\n",
+                "gender": "everyone",
+                "name": "BROW SHAPING",
+                "position": -9
+            },
+            "id": "s:9780287",
+            "relationships": {
+                "category": {
+                    "data": {
+                        "id": "2017149",
+                        "type": "offer-item-categories"
+                    }
+                },
+                "offer-item-group-recommendation": {
+                    "data": null
+                }
+            },
+            "type": "offer-item-groups"
+        },
+        {
+            "attributes": {
+                "description": "Hair ends only",
+                "gender": "everyone",
+                "name": "DRY HAIRCUT ",
+                "position": -15
+            },
+            "id": "s:9780288",
+            "relationships": {
+                "category": {
+                    "data": {
+                        "id": "2017150",
+                        "type": "offer-item-categories"
+                    }
+                },
+                "offer-item-group-recommendation": {
+                    "data": null
+                }
+            },
+            "type": "offer-item-groups"
+        },
+        {
+            "attributes": {
+                "description": "A follow up appointment after your initial gel nail strengthen or extension manicure. We recommend a gel rebalance service every 3 - 4 weeks to keep your natural nails healthy. Completed with gel polish application, cuticle work (e-file). ",
+                "gender": "everyone",
+                "name": "INFILL / GEL REBALANCE",
+                "position": -11
+            },
+            "id": "s:9780289",
+            "relationships": {
+                "category": {
+                    "data": {
+                        "id": "2017151",
+                        "type": "offer-item-categories"
+                    }
+                },
+                "offer-item-group-recommendation": {
+                    "data": {
+                        "id": "rs:s:9780289",
+                        "type": "offer-item-group-recommendations"
+                    }
+                }
+            },
+            "type": "offer-item-groups"
+        },
+        {
+            "attributes": {
+                "description": "A complete manicure with application of our Signature, strengthening products such as Apex Gel / Rubber Base  (builder in the bottle) with Signature gel polish colour application. The service is completed with cuticle treatment (oil).\n\nA complete manicure includes cuticle care, prep, shape and file of the natural nail plate using a range of professional nail tools and an E-file for a longer-lasting gel manicure of up to 3+ weeks.",
+                "gender": "everyone",
+                "name": "STRENGTHENING MANICURE ( NATURAL NAILS )",
+                "position": -12
+            },
+            "id": "s:9780290",
+            "relationships": {
+                "category": {
+                    "data": {
+                        "id": "2017151",
+                        "type": "offer-item-categories"
+                    }
+                },
+                "offer-item-group-recommendation": {
+                    "data": {
+                        "id": "rs:s:9780290",
+                        "type": "offer-item-group-recommendations"
+                    }
+                }
+            },
+            "type": "offer-item-groups"
+        },
+        {
+            "attributes": {
+                "description": "A complete manicure followed by application of our Signature gel polish colour range. The service is completed with cuticle treatment (oil).\n\nA complete manicure includes cuticle care, prep, shape and file of the natural nail plate using a range of professional nail tools and an E-file for a longer-lasting gel manicure of up to 3+ weeks.",
+                "gender": "everyone",
+                "name": "CLASSIC GEL MANICURE ( NATURAL NAILS )",
+                "position": -13
+            },
+            "id": "s:9780291",
+            "relationships": {
+                "category": {
+                    "data": {
+                        "id": "2017151",
+                        "type": "offer-item-categories"
+                    }
+                },
+                "offer-item-group-recommendation": {
+                    "data": {
+                        "id": "rs:s:9780291",
+                        "type": "offer-item-group-recommendations"
+                    }
+                }
+            },
+            "type": "offer-item-groups"
+        },
+        {
+            "attributes": {
+                "description": "A complete manicure cuticle work (e-file) followed by application of cuticle treatment (oil).\n\nA complete manicure includes cuticle care, prep, shape and file of the natural nail plate using a range of professional nail tools and products.\nPlease note removal services includes only removal of UV/LED gel enhancements. Removal of acrylic enhancement will incur an additional charge as these nail enhancements may require more time.",
+                "gender": "everyone",
+                "name": "CLASSIC MANICURE (WITH REMOVAL)",
+                "position": -14
+            },
+            "id": "s:9780292",
+            "relationships": {
+                "category": {
+                    "data": {
+                        "id": "2017151",
+                        "type": "offer-item-categories"
+                    }
+                },
+                "offer-item-group-recommendation": {
+                    "data": null
+                }
+            },
+            "type": "offer-item-groups"
+        },
+        {
+            "attributes": {
+                "description": "A complete manicure followed by application of cuticle treatment (oil). Please note, a removal is not included in these services. \nA complete manicure includes cuticle care, prep, shape and file of the natural nail plate using a range of professional nail tools and an E-file for a longer-lasting gel manicure of up to 3+ weeks.",
+                "gender": "everyone",
+                "name": "CLASSIC MANICURE (NATURAL NAILS)",
+                "position": -15
+            },
+            "id": "s:9780293",
+            "relationships": {
+                "category": {
+                    "data": {
+                        "id": "2017151",
+                        "type": "offer-item-categories"
+                    }
+                },
+                "offer-item-group-recommendation": {
+                    "data": null
+                }
+            },
+            "type": "offer-item-groups"
+        },
+        {
+            "attributes": {
+                "description": null,
+                "gender": "everyone",
+                "name": "WASH & BLOW DRY",
+                "position": -12
+            },
+            "id": "s:9786610",
+            "relationships": {
+                "category": {
+                    "data": {
+                        "id": "2017150",
+                        "type": "offer-item-categories"
+                    }
+                },
+                "offer-item-group-recommendation": {
+                    "data": null
+                }
+            },
+            "type": "offer-item-groups"
+        },
+        {
+            "attributes": {
+                "description": null,
+                "gender": "everyone",
+                "name": "WASH, CUT & BLOW DRY",
+                "position": -11
+            },
+            "id": "s:9786632",
+            "relationships": {
+                "category": {
+                    "data": {
+                        "id": "2017150",
+                        "type": "offer-item-categories"
+                    }
+                },
+                "offer-item-group-recommendation": {
+                    "data": null
+                }
+            },
+            "type": "offer-item-groups"
+        },
+        {
+            "attributes": {
+                "description": null,
+                "gender": "everyone",
+                "name": "WASH, CUT & BLOW DRY / RE-STYLING ",
+                "position": -10
+            },
+            "id": "s:9786649",
+            "relationships": {
+                "category": {
+                    "data": {
+                        "id": "2017150",
+                        "type": "offer-item-categories"
+                    }
+                },
+                "offer-item-group-recommendation": {
+                    "data": null
+                }
+            },
+            "type": "offer-item-groups"
+        },
+        {
+            "attributes": {
+                "description": null,
+                "gender": "everyone",
+                "name": "HAIR - UP (no wash)",
+                "position": -9
+            },
+            "id": "s:9786663",
+            "relationships": {
+                "category": {
+                    "data": {
+                        "id": "2017150",
+                        "type": "offer-item-categories"
+                    }
+                },
+                "offer-item-group-recommendation": {
+                    "data": null
+                }
+            },
+            "type": "offer-item-groups"
+        },
+        {
+            "attributes": {
+                "description": null,
+                "gender": "everyone",
+                "name": "BRIDAL (no wash)",
+                "position": -8
+            },
+            "id": "s:9786668",
+            "relationships": {
+                "category": {
+                    "data": {
+                        "id": "2017150",
+                        "type": "offer-item-categories"
+                    }
+                },
+                "offer-item-group-recommendation": {
+                    "data": null
+                }
+            },
+            "type": "offer-item-groups"
+        },
+        {
+            "attributes": {
+                "description": null,
+                "gender": "everyone",
+                "name": "HAIR TREATMENT ",
+                "position": -7
+            },
+            "id": "s:9786930",
+            "relationships": {
+                "category": {
+                    "data": {
+                        "id": "2017150",
+                        "type": "offer-item-categories"
+                    }
+                },
+                "offer-item-group-recommendation": {
+                    "data": null
+                }
+            },
+            "type": "offer-item-groups"
+        },
+        {
+            "attributes": {
+                "description": "OLAPLEX",
+                "gender": "everyone",
+                "name": "HAIR HYDRATION",
+                "position": -6
+            },
+            "id": "s:9787447",
+            "relationships": {
+                "category": {
+                    "data": {
+                        "id": "2017150",
+                        "type": "offer-item-categories"
+                    }
+                },
+                "offer-item-group-recommendation": {
+                    "data": null
+                }
+            },
+            "type": "offer-item-groups"
+        },
+        {
+            "attributes": {
+                "description": null,
+                "gender": "everyone",
+                "name": "FULL HEAD BLEACH ",
+                "position": -5
+            },
+            "id": "s:9788450",
+            "relationships": {
+                "category": {
+                    "data": {
+                        "id": "2017150",
+                        "type": "offer-item-categories"
+                    }
+                },
+                "offer-item-group-recommendation": {
+                    "data": null
+                }
+            },
+            "type": "offer-item-groups"
+        },
+        {
+            "attributes": {
+                "description": null,
+                "gender": "everyone",
+                "name": "ROOTS BLEACH ",
+                "position": -4
+            },
+            "id": "s:9788482",
+            "relationships": {
+                "category": {
+                    "data": {
+                        "id": "2017150",
+                        "type": "offer-item-categories"
+                    }
+                },
+                "offer-item-group-recommendation": {
+                    "data": null
+                }
+            },
+            "type": "offer-item-groups"
+        },
+        {
+            "attributes": {
+                "description": null,
+                "gender": "everyone",
+                "name": "ROOTS BLEACH AND TONE ",
+                "position": -3
+            },
+            "id": "s:9788488",
+            "relationships": {
+                "category": {
+                    "data": {
+                        "id": "2017150",
+                        "type": "offer-item-categories"
+                    }
+                },
+                "offer-item-group-recommendation": {
+                    "data": null
+                }
+            },
+            "type": "offer-item-groups"
+        },
+        {
+            "attributes": {
+                "description": "About this service:\n\nPatch test recommendation 24/48h prior to the appointment on a walk in basis at the venue\nIf the root length is more than 3 cm the venue may charge extra\nColour price correction - only by consultation in the salon\n    Blow-dry not included\n\nRestrictions:\n\nA patch test is required 24/48 hours prior to treatment. Please call the salon once the booking has been confirmed to arrange this or walk in at least 24 hours before the treatment\nThis service does not include a blow dry\n\nPatch test:\n\nTo make sure your skin doesn’t react to the products used in your treatment, please book a patch test at least 48 hours before your appointment.\n\nAlready had one in the past 6 months at this salon? You might not need to do it again (but please check with the salon to be sure).",
+                "gender": "everyone",
+                "name": "ROOTS TOUCH UP / SOLID COLOUR ",
+                "position": -2
+            },
+            "id": "s:9788496",
+            "relationships": {
+                "category": {
+                    "data": {
+                        "id": "2017150",
+                        "type": "offer-item-categories"
+                    }
+                },
+                "offer-item-group-recommendation": {
+                    "data": null
+                }
+            },
+            "type": "offer-item-groups"
+        },
+        {
+            "attributes": {
+                "description": "Price depends on hair length.                 About this service:\nAllergy test recommendation 24/48h prior to the appointment on walking basis at the venue\nThere may be extra charges for colouring as it depends on hair length, how thick hair is and what kind of colour you have now and what kind of result you would like to get.\nColour correction only by consultation in the salon.\n\nPatch test\n\nTo make sure your skin doesn’t react to the products used in your treatment, please book a patch test for at least 48 hours before your appointment.\n\nAlready had one in the past 6 months at this salon? You might not need to do it again (but please check with the salon to be sure).\n",
+                "gender": "everyone",
+                "name": "FULL HEAD COLOURING ( Solid Colour, Ombre, Highlights, Babylights, Balayage)",
+                "position": -1
+            },
+            "id": "s:9788505",
+            "relationships": {
+                "category": {
+                    "data": {
+                        "id": "2017150",
+                        "type": "offer-item-categories"
+                    }
+                },
+                "offer-item-group-recommendation": {
+                    "data": null
+                }
+            },
+            "type": "offer-item-groups"
+        },
+        {
+            "attributes": {
+                "description": "Eyebrow tinting is for anyone who wants fuller-looking brows.\n\nFirst, your therapist cleans your brows.\nThen the tint is carefully applied and left to process for 10 to 20 minutes.\nNext, the tint is removed using cotton pads and swabs.\n",
+                "gender": "everyone",
+                "name": "BROW TINT",
+                "position": -8
+            },
+            "id": "s:9788532",
+            "relationships": {
+                "category": {
+                    "data": {
+                        "id": "2017149",
+                        "type": "offer-item-categories"
+                    }
+                },
+                "offer-item-group-recommendation": {
+                    "data": null
+                }
+            },
+            "type": "offer-item-groups"
+        },
+        {
+            "attributes": {
+                "description": null,
+                "gender": "everyone",
+                "name": "BROW LAMINATION",
+                "position": -6
+            },
+            "id": "s:9788550",
+            "relationships": {
+                "category": {
+                    "data": {
+                        "id": "2017149",
+                        "type": "offer-item-categories"
+                    }
+                },
+                "offer-item-group-recommendation": {
+                    "data": null
+                }
+            },
+            "type": "offer-item-groups"
+        },
+        {
+            "attributes": {
+                "description": null,
+                "gender": "everyone",
+                "name": "BROW LAMINATION & WAX",
+                "position": -5
+            },
+            "id": "s:9788559",
+            "relationships": {
+                "category": {
+                    "data": {
+                        "id": "2017149",
+                        "type": "offer-item-categories"
+                    }
+                },
+                "offer-item-group-recommendation": {
+                    "data": null
+                }
+            },
+            "type": "offer-item-groups"
+        },
+        {
+            "attributes": {
+                "description": null,
+                "gender": "everyone",
+                "name": "BROW LAMINATION & TINT",
+                "position": -4
+            },
+            "id": "s:9788565",
+            "relationships": {
+                "category": {
+                    "data": {
+                        "id": "2017149",
+                        "type": "offer-item-categories"
+                    }
+                },
+                "offer-item-group-recommendation": {
+                    "data": null
+                }
+            },
+            "type": "offer-item-groups"
+        },
+        {
+            "attributes": {
+                "description": null,
+                "gender": "everyone",
+                "name": "BROW LAMINATION & WAX & TINT",
+                "position": -3
+            },
+            "id": "s:9788571",
+            "relationships": {
+                "category": {
+                    "data": {
+                        "id": "2017149",
+                        "type": "offer-item-categories"
+                    }
+                },
+                "offer-item-group-recommendation": {
+                    "data": null
+                }
+            },
+            "type": "offer-item-groups"
+        },
+        {
+            "attributes": {
+                "description": null,
+                "gender": "everyone",
+                "name": "EYELASHES TINT",
+                "position": -2
+            },
+            "id": "s:9788604",
+            "relationships": {
+                "category": {
+                    "data": {
+                        "id": "2017149",
+                        "type": "offer-item-categories"
+                    }
+                },
+                "offer-item-group-recommendation": {
+                    "data": null
+                }
+            },
+            "type": "offer-item-groups"
+        },
+        {
+            "attributes": {
+                "description": null,
+                "gender": "everyone",
+                "name": "EYELASHES LAMINATION & TINT",
+                "position": -1
+            },
+            "id": "s:9788613",
+            "relationships": {
+                "category": {
+                    "data": {
+                        "id": "2017149",
+                        "type": "offer-item-categories"
+                    }
+                },
+                "offer-item-group-recommendation": {
+                    "data": null
+                }
+            },
+            "type": "offer-item-groups"
+        },
+        {
+            "attributes": {
+                "description": "Extend your nails to the desired length using our Hard gel or Acrylic Gel systems. Natural feeling and looking nail enhancements. Completed with gel polish application. The service includes cuticle treatment (oil).",
+                "gender": "everyone",
+                "name": "NAIL EXTENSION",
+                "position": -10
+            },
+            "id": "s:9788769",
+            "relationships": {
+                "category": {
+                    "data": {
+                        "id": "2017151",
+                        "type": "offer-item-categories"
+                    }
+                },
+                "offer-item-group-recommendation": {
+                    "data": null
+                }
+            },
+            "type": "offer-item-groups"
+        },
+        {
+            "attributes": {
+                "description": "Extend your nails to the desired length using our hard gel systems in various techniques for your aspiration. A perfect French will give your nails that immaculate look of a smart looking nail enhancements. The service includes cuticle treatment (oil).",
+                "gender": "everyone",
+                "name": "SCULPTED EXTENSION",
+                "position": -7
+            },
+            "id": "s:9788779",
+            "relationships": {
+                "category": {
+                    "data": {
+                        "id": "2017151",
+                        "type": "offer-item-categories"
+                    }
+                },
+                "offer-item-group-recommendation": {
+                    "data": null
+                }
+            },
+            "type": "offer-item-groups"
+        },
+        {
+            "attributes": {
+                "description": "Extend your nails to the desired length with highly skilled using our hard gel systems.  is sculpted within the nail extension itself using hard gel to  for longer. Natural feeling and looking nail enhancements. Completed with gel polish application. The service includes cuticle treatment (oil).",
+                "gender": "everyone",
+                "name": "SCULPTED FRENCH EXTENSION (ART)",
+                "position": -6
+            },
+            "id": "s:9788792",
+            "relationships": {
+                "category": {
+                    "data": {
+                        "id": "2017151",
+                        "type": "offer-item-categories"
+                    }
+                },
+                "offer-item-group-recommendation": {
+                    "data": null
+                }
+            },
+            "type": "offer-item-groups"
+        },
+        {
+            "attributes": {
+                "description": "Get your feet ready for a special event or a vacation with a complete \"makeover\".\n\nThe treatment includes nail shape correction, cuticle prep (e-file) with gel colour overlay ",
+                "gender": "everyone",
+                "name": "HYGIENIC PEDICURE",
+                "position": -5
+            },
+            "id": "s:9788801",
+            "relationships": {
+                "category": {
+                    "data": {
+                        "id": "2017151",
+                        "type": "offer-item-categories"
+                    }
+                },
+                "offer-item-group-recommendation": {
+                    "data": {
+                        "id": "rs:s:9788801",
+                        "type": "offer-item-group-recommendations"
+                    }
+                }
+            },
+            "type": "offer-item-groups"
+        },
+        {
+            "attributes": {
+                "description": "A hygiene pedicure followed by application of our Signature gel polish colour range.",
+                "gender": "everyone",
+                "name": "COMPLETE GEL PEDICURE",
+                "position": -4
+            },
+            "id": "s:9788810",
+            "relationships": {
+                "category": {
+                    "data": {
+                        "id": "2017151",
+                        "type": "offer-item-categories"
+                    }
+                },
+                "offer-item-group-recommendation": {
+                    "data": {
+                        "id": "rs:s:9788810",
+                        "type": "offer-item-group-recommendations"
+                    }
+                }
+            },
+            "type": "offer-item-groups"
+        },
+        {
+            "attributes": {
+                "description": "A hygiene pedicure followed by application of our Signature gel polish colour range with design.",
+                "gender": "everyone",
+                "name": "FRENCH PEDICURE",
+                "position": -3
+            },
+            "id": "s:9788823",
+            "relationships": {
+                "category": {
+                    "data": {
+                        "id": "2017151",
+                        "type": "offer-item-categories"
+                    }
+                },
+                "offer-item-group-recommendation": {
+                    "data": null
+                }
+            },
+            "type": "offer-item-groups"
+        },
+        {
+            "attributes": {
+                "description": "A luxurious treat for your hands with a sugar scrub and application of  mask to nourish and soften the skin. ",
+                "gender": "everyone",
+                "name": "OPI HAND SPA TREATMENT",
+                "position": -2
+            },
+            "id": "s:9788845",
+            "relationships": {
+                "category": {
+                    "data": {
+                        "id": "2017151",
+                        "type": "offer-item-categories"
+                    }
+                },
+                "offer-item-group-recommendation": {
+                    "data": null
+                }
+            },
+            "type": "offer-item-groups"
+        },
+        {
+            "attributes": {
+                "description": "Add a pampering session to your hygienic or gel pedicure with a sugar scrub and softening lotion. ",
+                "gender": "everyone",
+                "name": "OPI FOOT SPA TREATMENT",
+                "position": -1
+            },
+            "id": "s:9788862",
+            "relationships": {
+                "category": {
+                    "data": {
+                        "id": "2017151",
+                        "type": "offer-item-categories"
+                    }
+                },
+                "offer-item-group-recommendation": {
+                    "data": null
+                }
+            },
+            "type": "offer-item-groups"
+        },
+        {
+            "attributes": {
+                "description": "Dry haircut with style ",
+                "gender": "everyone",
+                "name": "DRY HAIRCUT / RESTYLIG ",
+                "position": -14
+            },
+            "id": "s:9920402",
+            "relationships": {
+                "category": {
+                    "data": {
+                        "id": "2017150",
+                        "type": "offer-item-categories"
+                    }
+                },
+                "offer-item-group-recommendation": {
+                    "data": null
+                }
+            },
+            "type": "offer-item-groups"
+        },
+        {
+            "attributes": {
+                "description": "Design from £1 for a one nail.",
+                "gender": "everyone",
+                "name": "SPECIAL DESIGN",
+                "position": -9
+            },
+            "id": "s:10318866",
+            "relationships": {
+                "category": {
+                    "data": {
+                        "id": "2017151",
+                        "type": "offer-item-categories"
+                    }
+                },
+                "offer-item-group-recommendation": {
+                    "data": null
+                }
+            },
+            "type": "offer-item-groups"
+        },
+        {
+            "attributes": {
+                "description": "French design (ten fingers)",
+                "gender": "everyone",
+                "name": "FRENCH DESIGN",
+                "position": -8
+            },
+            "id": "s:10318882",
+            "relationships": {
+                "category": {
+                    "data": {
+                        "id": "2017151",
+                        "type": "offer-item-categories"
+                    }
+                },
+                "offer-item-group-recommendation": {
+                    "data": null
+                }
+            },
+            "type": "offer-item-groups"
+        },
+        {
+            "attributes": {
+                "description": null,
+                "gender": "everyone",
+                "name": "GEL POLISH REMOVAL",
+                "position": -16
+            },
+            "id": "s:10338548",
+            "relationships": {
+                "category": {
+                    "data": {
+                        "id": "2017151",
+                        "type": "offer-item-categories"
+                    }
+                },
+                "offer-item-group-recommendation": {
+                    "data": null
+                }
+            },
+            "type": "offer-item-groups"
+        },
+        {
+            "attributes": {
+                "description": "Come in for a friendly chat with our hairstylist to discuss a wide range of hair, treatments and hair colour options available in our salon. ",
+                "gender": "everyone",
+                "name": "HAIR CONSULTATION ",
+                "position": -16
+            },
+            "id": "s:10507248",
+            "relationships": {
+                "category": {
+                    "data": {
+                        "id": "2017150",
+                        "type": "offer-item-categories"
+                    }
+                },
+                "offer-item-group-recommendation": {
+                    "data": null
+                }
+            },
+            "type": "offer-item-groups"
+        },
+        {
+            "attributes": {
+                "description": null,
+                "gender": "everyone",
+                "name": "EYELASH EXTENSIONS",
+                "position": -10
+            },
+            "id": "s:11396755",
+            "relationships": {
+                "category": {
+                    "data": {
+                        "id": "2017149",
+                        "type": "offer-item-categories"
+                    }
+                },
+                "offer-item-group-recommendation": {
+                    "data": null
+                }
+            },
+            "type": "offer-item-groups"
+        },
+        {
+            "attributes": {
+                "description": "Classic lashes are semi-permanent extensions placed individually onto each natural lash. Providing a fuller but natural look, they're created for long-term wear.\n\nFirst, your therapist preps your eyes with eye pads and tape and cleans your eyelashes with a prep solution.\nThen, the lash is carefully glued in place according to your desired look.\nLastly, your therapist combs your eyelashes to finish the look.",
+                "gender": "everyone",
+                "name": "Classic Individual",
+                "position": -2
+            },
+            "id": "s:11476022",
+            "relationships": {
+                "category": {
+                    "data": {
+                        "id": "2390139",
+                        "type": "offer-item-categories"
+                    }
+                },
+                "offer-item-group-recommendation": {
+                    "data": null
+                }
+            },
+            "type": "offer-item-groups"
+        },
+        {
+            "attributes": {
+                "description": "Infills are recommended every 2 weeks and are the best way to maintain your perfect eyelash extensions.\n\nTo start, a consultation is done to achieve the best results.\nAfter, sit back while your beautician replaces each missing lash.\nTo finish, your beautician cross-checks your lashes to ensure there is a complete coverage.\nLet the talented eyelash artists at this salon restore your full lashes.",
+                "gender": "everyone",
+                "name": "Infills",
+                "position": -1
+            },
+            "id": "s:11476267",
+            "relationships": {
+                "category": {
+                    "data": {
+                        "id": "2390139",
+                        "type": "offer-item-categories"
+                    }
+                },
+                "offer-item-group-recommendation": {
+                    "data": null
+                }
+            },
+            "type": "offer-item-groups"
+        },
+        {
+            "attributes": {
+                "description": "A blend of Volume and Classic. The one to choose if you’re struggling to – well – choose.\n\nFirst up, prep. Your therapist will clean your lashes with eye pads and a prep solution.\nYour choice of lashes will be applied – a mixture of individual and volume lashes, to each individual lash – held in place with specialist glue.\nYour lashes are combed through to finish the look.",
+                "gender": "everyone",
+                "name": "Hybrid",
+                "position": -3
+            },
+            "id": "s:11476411",
+            "relationships": {
+                "category": {
+                    "data": {
+                        "id": "2390139",
+                        "type": "offer-item-categories"
+                    }
+                },
+                "offer-item-group-recommendation": {
+                    "data": null
+                }
+            },
+            "type": "offer-item-groups"
+        },
+        {
+            "attributes": {
+                "description": "Full Volume 2D/3D semi-permanent lashes are the most popular advanced technique. Multiple lashes are attached to each individual natural lash without putting any strain on the lashes, creating volume and definition. Ideal for long-term wear.\n\nFirst, your therapist preps your eyes with eye pads and tape and cleans your eyelashes with a prep solution.\nThen, the lash is carefully glued in place according to your desired look.\nLastly, your therapist combs your eyelashes to finish the look.",
+                "gender": "everyone",
+                "name": "Full Volume 2D/3D",
+                "position": -4
+            },
+            "id": "s:11476469",
+            "relationships": {
+                "category": {
+                    "data": {
+                        "id": "2390139",
+                        "type": "offer-item-categories"
+                    }
+                },
+                "offer-item-group-recommendation": {
+                    "data": null
+                }
+            },
+            "type": "offer-item-groups"
+        },
+        {
+            "attributes": {
+                "description": null,
+                "gender": "everyone",
+                "name": "UPPER LIP & CHIN",
+                "position": -11
+            },
+            "id": "s:11499352",
+            "relationships": {
+                "category": {
+                    "data": {
+                        "id": "2390132",
+                        "type": "offer-item-categories"
+                    }
+                },
+                "offer-item-group-recommendation": {
+                    "data": null
+                }
+            },
+            "type": "offer-item-groups"
+        },
+        {
+            "attributes": {
+                "description": null,
+                "gender": "everyone",
+                "name": "UNDERARM",
+                "position": -9
+            },
+            "id": "s:11499413",
+            "relationships": {
+                "category": {
+                    "data": {
+                        "id": "2390132",
+                        "type": "offer-item-categories"
+                    }
+                },
+                "offer-item-group-recommendation": {
+                    "data": null
+                }
+            },
+            "type": "offer-item-groups"
+        },
+        {
+            "attributes": {
+                "description": null,
+                "gender": "everyone",
+                "name": "ARM WAXING",
+                "position": -8
+            },
+            "id": "s:11499510",
+            "relationships": {
+                "category": {
+                    "data": {
+                        "id": "2390132",
+                        "type": "offer-item-categories"
+                    }
+                },
+                "offer-item-group-recommendation": {
+                    "data": null
+                }
+            },
+            "type": "offer-item-groups"
+        },
+        {
+            "attributes": {
+                "description": null,
+                "gender": "everyone",
+                "name": "LEG WAXING",
+                "position": -6
+            },
+            "id": "s:11499895",
+            "relationships": {
+                "category": {
+                    "data": {
+                        "id": "2390132",
+                        "type": "offer-item-categories"
+                    }
+                },
+                "offer-item-group-recommendation": {
+                    "data": null
+                }
+            },
+            "type": "offer-item-groups"
+        },
+        {
+            "attributes": {
+                "description": "SIMPLY - Tidy up those hairs that stray from the pant line!\nG - STRING - Extended bikini, higher than a basic but keeping everything underneath.\nBRAZILIAN - Everything but only a strip or triangle is your aim!\nHOLLYWOOD - To be bare down there!",
+                "gender": "everyone",
+                "name": "BIKINI",
+                "position": -4
+            },
+            "id": "s:11500074",
+            "relationships": {
+                "category": {
+                    "data": {
+                        "id": "2390132",
+                        "type": "offer-item-categories"
+                    }
+                },
+                "offer-item-group-recommendation": {
+                    "data": null
+                }
+            },
+            "type": "offer-item-groups"
+        },
+        {
+            "attributes": {
+                "description": null,
+                "gender": "everyone",
+                "name": "BROW SHAPING & TINT",
+                "position": -7
+            },
+            "id": "p:255331",
+            "relationships": {
+                "category": {
+                    "data": {
+                        "id": "2017149",
+                        "type": "offer-item-categories"
+                    }
+                },
+                "offer-item-group-recommendation": {
+                    "data": {
+                        "id": "rs:p:255331",
+                        "type": "offer-item-group-recommendations"
+                    }
+                }
+            },
+            "type": "offer-item-groups"
+        },
+        {
+            "id": "255331",
+            "relationships": {
+                "package-items": {
+                    "data": [
+                        {
+                            "id": "4586994",
+                            "type": "package-items"
+                        },
+                        {
+                            "id": "4586993",
+                            "type": "package-items"
+                        }
+                    ]
+                }
+            },
+            "type": "packages"
+        },
+        {
+            "attributes": {
+                "extra-time-in-seconds": null,
+                "extra-time-type": null,
+                "position": 1,
+                "service-variant-id": 11394372
+            },
+            "id": "4586994",
+            "relationships": {
+                "service-variant": {
+                    "data": {
+                        "id": "11394372",
+                        "type": "service-variants"
+                    }
+                }
+            },
+            "type": "package-items"
+        },
+        {
+            "attributes": {
+                "extra-time-in-seconds": null,
+                "extra-time-type": null,
+                "position": 0,
+                "service-variant-id": 11385179
+            },
+            "id": "4586993",
+            "relationships": {
+                "service-variant": {
+                    "data": {
+                        "id": "11385179",
+                        "type": "service-variants"
+                    }
+                }
+            },
+            "type": "package-items"
+        },
+        {
+            "attributes": {
+                "position": 0
+            },
+            "id": "rs:s:9780289",
+            "relationships": {
+                "offer-item": {
+                    "data": {
+                        "id": "s:9780289",
+                        "type": "offer-item-groups"
+                    }
+                }
+            },
+            "type": "offer-item-group-recommendations"
+        },
+        {
+            "attributes": {
+                "position": 1
+            },
+            "id": "rs:s:9780290",
+            "relationships": {
+                "offer-item": {
+                    "data": {
+                        "id": "s:9780290",
+                        "type": "offer-item-groups"
+                    }
+                }
+            },
+            "type": "offer-item-group-recommendations"
+        },
+        {
+            "attributes": {
+                "position": 2
+            },
+            "id": "rs:s:9788810",
+            "relationships": {
+                "offer-item": {
+                    "data": {
+                        "id": "s:9788810",
+                        "type": "offer-item-groups"
+                    }
+                }
+            },
+            "type": "offer-item-group-recommendations"
+        },
+        {
+            "attributes": {
+                "position": 3
+            },
+            "id": "rs:s:9788801",
+            "relationships": {
+                "offer-item": {
+                    "data": {
+                        "id": "s:9788801",
+                        "type": "offer-item-groups"
+                    }
+                }
+            },
+            "type": "offer-item-group-recommendations"
+        },
+        {
+            "attributes": {
+                "position": 4
+            },
+            "id": "rs:p:255331",
+            "relationships": {
+                "offer-item": {
+                    "data": {
+                        "id": "p:255331",
+                        "type": "offer-item-groups"
+                    }
+                }
+            },
+            "type": "offer-item-group-recommendations"
+        },
+        {
+            "attributes": {
+                "position": 5
+            },
+            "id": "rs:s:9780291",
+            "relationships": {
+                "offer-item": {
+                    "data": {
+                        "id": "s:9780291",
+                        "type": "offer-item-groups"
+                    }
+                }
+            },
+            "type": "offer-item-group-recommendations"
+        },
+        {
+            "attributes": {
+                "name": "Services special price 100% off",
+                "type": "percentage",
+                "value": 100.0
+            },
+            "id": "discount:flash_sale_725843",
+            "type": "automatic-discounts"
+        },
+        {
+            "attributes": {
+                "description": "Perfect eyebrows mean perfect arches. (Wax & Tweezers)\n\nFirst, you and your wax therapist discuss your preferences and how you want your brows shaped.\nThen, the wax is carefully applied in the direction of hair growth.\nOnce dry, the wax is removed opposite the direction of hair growth.\n",
+                "duration-in-seconds": 1800,
+                "duration-in-seconds-max": 1800,
+                "duration-in-seconds-min": 1800,
+                "extra-time-in-seconds": null,
+                "extra-time-type": null,
+                "gender": "everyone",
+                "name": null,
+                "room-required": false,
+                "service-name": "BROW SHAPING"
+            },
+            "id": "11385179",
+            "type": "service-variants"
+        },
+        {
+            "attributes": {
+                "description": "Eyebrow tinting is for anyone who wants fuller-looking brows.\n\nFirst, your therapist cleans your brows.\nThen the tint is carefully applied and left to process for 10 to 20 minutes.\nNext, the tint is removed using cotton pads and swabs.\n",
+                "duration-in-seconds": 1500,
+                "duration-in-seconds-max": 1500,
+                "duration-in-seconds-min": 1500,
+                "extra-time-in-seconds": null,
+                "extra-time-type": null,
+                "gender": "everyone",
+                "name": null,
+                "room-required": false,
+                "service-name": "BROW TINT"
+            },
+            "id": "11394372",
+            "type": "service-variants"
+        }
+    ],
+    "jsonapi": {
+        "version": "1.0"
+    }
+}

@@ -1,3 +1,5 @@
+import re
+
 from django.shortcuts import render
 from django.views import generic
 from django.utils import timezone
@@ -5,6 +7,7 @@ from django.shortcuts import get_object_or_404,redirect
 
 
 from .models import *
+from fresha.models import *
 
 # Create your views here.
 class ListView(generic.ListView):
@@ -120,23 +123,33 @@ class PostView(generic.DetailView):
     model = Post
 
     def get_object(self, queryset=None):
-        post = get_object_or_404(Post, slug=self.kwargs['slug'])
+        post = get_object_or_404(Post, slug=self.kwargs.get('slug','home'))
         lang = self.kwargs.get('lang')
 
         if not lang or lang == 'en':
             post.lang = lang
-            return post
+        else:
 
-        #post_lang = get_object_or_404(PostLang, post=post, lang_iso_code=lang)
-        try:
-            post_lang = PostLang.objects.get(post=post, lang_iso_code=lang)
-        except PostLang.DoesNotExist:
-            post.lang = lang
-            return post
+            #post_lang = get_object_or_404(PostLang, post=post, lang_iso_code=lang)
+            try:
+                post_lang = PostLang.objects.get(post=post, lang_iso_code=lang)
 
-        if post_lang.title: post.title = post_lang.title
-        if post_lang.email_subject: post.email_subject = post_lang.email_subject
-        if post_lang.text: post.text = post_lang.text
+                if post_lang.title: post.title = post_lang.title
+                if post_lang.email_subject: post.email_subject = post_lang.email_subject
+                if post_lang.text: post.text = post_lang.text
+
+            except PostLang.DoesNotExist:
+                post.lang = lang
+
+        print(post.text)
+        svs = re.search(r'\{services:(\d+)\}',post.text)
+        if svs:
+            print('found')
+            sub = svs.group(1)
+            cat = Category.objects.get(id=sub)
+            sub=cat.show_groups()
+            print(sub)
+            post.text = re.sub(r'\{services:(\d+)\}',sub,post.text)
 
         post.lang = lang
 
@@ -147,38 +160,5 @@ class PostView(generic.DetailView):
         context['breadcrumb'] = re.sub(r'[^\x00-\x7F]',' ', context['post'].title)
         context['categories'] = Category.objects.all().order_by('id')
 
-        this_dt = context['post'].blog_start_dt
-
-        if this_dt:
-            cat_slug = self.request.session.get('category')
-            cat = None
-            if cat_slug:
-                cat = Category.objects.get(slug=cat_slug)
-            
-                next = Post.objects.filter(
-                    blog_start_dt__lte=timezone.now(),blog=True,blog_start_dt__gt=this_dt,category=cat
-                ).order_by('blog_start_dt')[:1]
-
-                prev = Post.objects.filter(
-                    blog_start_dt__lte=timezone.now(),blog=True,blog_start_dt__lt=this_dt,category=cat
-                ).order_by('-blog_start_dt')[:1]
-
-            else:
-                next = Post.objects.filter(
-                    blog_start_dt__lte=timezone.now(),blog=True,blog_start_dt__gt=this_dt,
-                ).order_by('blog_start_dt')[:1]
-
-                prev = Post.objects.filter(
-                    blog_start_dt__lte=timezone.now(),blog=True,blog_start_dt__lt=this_dt,
-                ).order_by('-blog_start_dt')[:1]
-
-            if len(next): 
-                context['next'] = next[0].slug
-            if len(prev): 
-                context['prev'] = prev[0].slug
-
-        context['post'].text = context['post'].text.replace('<referral_url>','')
-        context['post'].text = context['post'].text.replace('<firstname>','')
-        context['post'].text = context['post'].text.replace('<!-- Hi Firstname -->','')
 
         return context        
