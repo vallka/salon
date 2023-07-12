@@ -23,9 +23,13 @@ class Group(models.Model):
     description = models.TextField(blank=True,default='',null=True)
     position = models.IntegerField(default=0)
     active = models.BooleanField(default=1)
+    photo_page = models.CharField(max_length=255,blank=True,default='')
 
     def show(self):
-        str = f'<div class="fresha_name">{self.name}</div><div class="fresha_description">{self.description if self.description else ""}</div>'
+        view_pics = f'<a href="{self.photo_page}">photos »</a>' if self.photo_page else ''
+        str = f'''<div class="fresha_name">{self.name}</div>
+<div class="fresha_description">{self.description if self.description else ""} {view_pics}</div>
+'''
         str += self.show_items()
         return str
 
@@ -62,10 +66,12 @@ class Item(models.Model):
 
     def show(self):
         link = f'https://www.fresha.com/book-now/gellifique-nail-bar-wq7vlwkv/services?lid=805208&oiid={self.str_id}&pId=756682'
-        str = f'''<div class="fresha_caption">{self.caption if self.caption else ""}</div>
-<div class="fresha_duration">{self.duration_h}</div>
-<div class="fresha_price">from £{self.price}</div>
-<div class="fresha_book"><a href="{link}">BOOK NOW</a></div>
+        str = f'''<div class="row fresha_item align-items-center"><div class="col-6">
+<div class="fresha_caption">{self.caption if self.caption else ""}</div>
+<div class="fresha_price">from £{self.price} - {self.duration_h}</div>
+</div>
+<div class="fresha_book col-6"><a href="{link}">BOOK NOW</a></div>
+</div>
 '''
         return str
 

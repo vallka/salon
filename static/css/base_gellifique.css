@@ -277,13 +277,12 @@ color: #d73672 !important;
   background-color: #444;
   color: white;
   display: inline-block;
-  padding: 1rem;
+  padding: 0.5rem;
   border-radius: 5px;
+  background-color: #d73672;
 }
 
 .blog_post h4:hover {
-  background-color: #666;
-  color: #fff;
   text-decoration: none;
 }
 
@@ -340,7 +339,7 @@ color: #d73672 !important;
 
 .blog_post {
   max-width: 610px;
-  text-align: center;
+  text-align: left;
   background-color: white;
   padding: 1rem;
   margin: auto;
@@ -391,15 +390,15 @@ hr.after-post {
 }
 
 .blog_post p {
-  text-align: justify;
+  text-align: left;
   margin-left: 0;
   margin-right: 0;
 }
 
-.blog_post p a, .blog_post li a {
-  color: #5a5a5a;
+.blog_post a, .blog_post li a {
+  color: #d73672;
   text-decoration: none;
-  border-bottom: 2px solid #2fb5d2;
+  border-bottom: 2px solid #d73672;
   font-weight: 600;
 }
 
@@ -559,4 +558,20 @@ hr.after-post {
 .back_link a {
   color:white;
   padding: 0.5rem;
+}
+
+.fresha_name {
+  font-weight: bold;
+  padding: 1rem 0 0.2rem;
+}
+.fresha_item {
+  padding: 0.2rem 0 0.2rem;
+}
+
+.fresha_book a {
+  background-color: #d73672;
+  color: white;
+  padding: 0 5px;
+  border-radius: 5px;
+  border-bottom: none;
 }
