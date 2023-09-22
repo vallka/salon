@@ -16,6 +16,10 @@ class Category(models.Model):
 
         return str
 
+    def __str__(self):
+        return str(self.name)
+
+
 class Group(models.Model):
     id = models.BigIntegerField(primary_key=True)
     category = models.ForeignKey(Category,on_delete=models.PROTECT)
@@ -40,6 +44,9 @@ class Group(models.Model):
             str += i.show()
         return str
 
+    def __str__(self):
+        return str(self.name)
+        
 class Item(models.Model):
     str_id = models.CharField(max_length=25,default='sv',primary_key=True)
     group = models.ForeignKey(Group,on_delete=models.PROTECT)
@@ -76,3 +83,5 @@ class Item(models.Model):
         return str
 
 
+    def __str__(self):
+        return str(self.name) + '-' + str(self.caption)

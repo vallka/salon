@@ -16,7 +16,7 @@ class Command(BaseCommand):
         data=r.json()['data']
         included=r.json()['included']
 
-        """
+        #"""
         for i in included:
             if i['type']=='offer-item-categories':
                 print(i['type'], i['id'], i['attributes']['name'],i['attributes']['position'])
@@ -49,7 +49,7 @@ class Command(BaseCommand):
                     )
 
                 group.save()
-        """
+        #"""
 
         for d in data:
             print(d['id'],d['attributes']['name'],d['attributes']['position'],d['relationships']['item-group']['data']['id'],d['attributes']['retail-price'],d['attributes']['duration-for-customer-in-seconds'])
