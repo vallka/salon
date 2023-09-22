@@ -95,12 +95,14 @@ DATABASES = {
     'default': {
             'ENGINE': 'django.db.backends.mysql',
             'NAME': 'salon',
-            'HOST': '/opt/bitnami/mariadb/tmp/mysql.sock',
-            'PORT': '3306',
+            #'HOST': '/opt/bitnami/mariadb/tmp/mysql.sock',
+            #'PORT': '3306',
             #'HOST': 'localhost',
             #'PORT': '3307',
             'USER': os.environ['POLLS_DB_USER'],
             'PASSWORD': os.environ['POLLS_DB_PASSWORD'],
+            'HOST': os.environ['POLLS_DB_HOST'],
+            'PORT': os.environ['POLLS_DB_PORT'],
     }
 }
 

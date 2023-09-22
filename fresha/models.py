@@ -9,7 +9,7 @@ class Category(models.Model):
     active = models.BooleanField(default=1)
 
     def show_groups(self):
-        groups = Group.objects.filter(category=self).order_by('position')
+        groups = Group.objects.filter(category=self,active=True).order_by('position')
         str = ''
         for g in groups:
             str += g.show()
@@ -39,7 +39,7 @@ class Group(models.Model):
 
     def show_items(self):
         str = ''
-        items = Item.objects.filter(group=self).order_by('position')
+        items = Item.objects.filter(group=self,active=True).order_by('position')
         for i in items:
             str += i.show()
         return str
