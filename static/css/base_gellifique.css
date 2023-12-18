@@ -575,3 +575,17 @@ hr.after-post {
   border-radius: 5px;
   border-bottom: none;
 }
+
+.fresha_img {
+  float: left;
+  max-width: 25%;
+  margin: 0 10px 10px 0;
+}
+
+.fresha_img img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+}

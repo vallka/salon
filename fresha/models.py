@@ -1,4 +1,8 @@
+import re
 from django.db import models
+from markdownx.models import MarkdownxField
+from markdownx.utils import markdownify
+
 
 # Create your models here.
 class Category(models.Model):
@@ -28,14 +32,36 @@ class Group(models.Model):
     position = models.IntegerField(default=0)
     active = models.BooleanField(default=1)
     photo_page = models.CharField(max_length=255,blank=True,default='')
+    extra_text = MarkdownxField(blank=True, null=False,default='')
+
+    @property
+    def first_image(self):
+        img = re.search(r'\!\[\]\(([^)]+)\)',self.extra_text)
+        if img and img.group(1):
+            return img.group(1)
+        else:
+            return None
+        
+    @property
+    def last_image(self):
+        all_images = re.findall(r'\!\[\]\(([^)]+)\)', self.extra_text)
+        if all_images:
+            return all_images[-1]
+        else:
+            return '/static/images/nail-svg.png'
 
     def show(self):
+        last_img = f'<div class="fresha_img"><img src="{self.last_image}"></div>' if self.last_image else ''
+        extra_text = f'<div class="extra_text" style="display:none">{markdownify(self.extra_text)}</div>' if self.extra_text else ''
         view_pics = f'<a href="{self.photo_page}">photos »</a>' if self.photo_page else ''
         str = f'''<div class="fresha_name">{self.name}</div>
-<div class="fresha_description">{self.description if self.description else ""} {view_pics}</div>
+{last_img}
+<div class="fresha_description">{self.description if self.description else ""}</div>
+{extra_text}
+<div style="clear:both"></div>
 '''
         str += self.show_items()
-        return str
+        return f'<div class="fresha_group">{str}</div><div style="clear:both"></div>'
 
     def show_items(self):
         str = ''

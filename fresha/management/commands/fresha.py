@@ -3,6 +3,7 @@ from django.core.management.base import BaseCommand, CommandError
 
 from fresha.models import Category,Group,Item
 
+
 class Command(BaseCommand):
     help = 'update fresha'
 
@@ -16,6 +17,11 @@ class Command(BaseCommand):
         data=r.json()['data']
         included=r.json()['included']
 
+
+        categories = []
+        groups = []
+        items = []
+
         #"""
         for i in included:
             if i['type']=='offer-item-categories':
@@ -28,11 +34,13 @@ class Command(BaseCommand):
                 except Category.DoesNotExist:
                     category = Category(id=i['id'],name=i['attributes']['name'],description=i['attributes']['description'],position=i['attributes']['position'])
 
+                categories.append(i['id'])
                 category.save()    
 
             elif i['type']=='offer-item-groups':
                 print(i['type'], i['id'], i['attributes']['name'],i['attributes']['position'],i['relationships']['category']['data']['id'])
                 id = i['id'][2:]
+                i['attributes']['name'] = i['attributes']['name'].replace('( ','(').replace(' )',')').replace('  ',' ')
                 try:
                     group = Group.objects.get(id=id)
                     group.name=i['attributes']['name']
@@ -48,11 +56,13 @@ class Command(BaseCommand):
                         category_id=i['relationships']['category']['data']['id']
                     )
 
+                groups.append(id)
                 group.save()
         #"""
 
         for d in data:
             print(d['id'],d['attributes']['name'],d['attributes']['position'],d['relationships']['item-group']['data']['id'],d['attributes']['retail-price'],d['attributes']['duration-for-customer-in-seconds'])
+            d['attributes']['name'] = d['attributes']['name'].replace('( ','(').replace(' )',')').replace('  ',' ')
             try:
                 item = Item.objects.get(str_id=d['id'])
                 item.caption=d['attributes']['caption']
@@ -74,3 +84,13 @@ class Command(BaseCommand):
                     duration = d['attributes']['duration-for-customer-in-seconds']
                 )
             item.save()
+            items.append(d['id'])
+
+
+        print(categories)
+        print(groups)
+        print(items)
+
+        Category.objects.exclude(id__in=categories).update(active=False)
+        Group.objects.exclude(id__in=groups).update(active=False)
+        Item.objects.exclude(str_id__in=items).update(active=False)
