@@ -589,3 +589,19 @@ hr.after-post {
   aspect-ratio: 1;
   border-radius: 50%;
 }
+
+
+.adilo {
+  width: 100%;
+  height: unset;
+  position: relative;
+  aspect-ratio: 9/16;
+  margin: 0 10px 0 0;
+}
+
+@media (min-width: 768px){
+  .blog_post_19 .adilo {
+    max-width: 270px;
+    float: left;
+  }
+}
