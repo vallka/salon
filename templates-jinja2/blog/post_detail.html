@@ -63,5 +63,38 @@
       </div>
     </div>
 
-    {% endif %}     
+    {% endif %}  
+    
+<script>
+  document.querySelectorAll('.a_fresha_extra').forEach(function(element) {
+
+    element.addEventListener('click', function() {
+      // Your code logic here
+      console.log(this); // Example: Accessing the element that triggered the click
+      event.preventDefault();
+      if (this.parentElement.getElementsByClassName('extra_text')[0].style.display=='none') {
+        this.parentElement.getElementsByClassName('extra_text')[0].style.display='block';
+        console.log('show');
+        if (this.tagName=='A') {
+          this.text = '« close'
+        }
+        else {
+          this.parentElement.querySelector('a.a_fresha_extra').text = '« close';
+        }
+      }
+      else {
+        this.parentElement.getElementsByClassName('extra_text')[0].style.display='none';
+        console.log('hide');
+        if (this.tagName=='A') {
+          this.text = 'photos »'
+        }
+        else {
+          this.parentElement.querySelector('a.a_fresha_extra').text = 'photos »';
+        }
+      }
+    });
+
+});
+
+</script>    
 {% endblock content %}

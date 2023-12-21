@@ -51,12 +51,14 @@ class Group(models.Model):
             return '/static/images/nail-svg.png'
 
     def show(self):
-        last_img = f'<div class="fresha_img"><img src="{self.last_image}"></div>' if self.last_image else ''
+        a_fresha_img = 'a_fresha_extra' if self.extra_text else ''
         extra_text = f'<div class="extra_text" style="display:none">{markdownify(self.extra_text)}</div>' if self.extra_text else ''
-        view_pics = f'<a href="{self.photo_page}">photos »</a>' if self.photo_page else ''
+        view_pics = f'<a href="#" class="a_fresha_extra">photos »</a>' if self.extra_text else ''
+        last_img = f'<div class="fresha_img {a_fresha_img}"><img src="{self.last_image}"></div>' if self.last_image else ''
         str = f'''<div class="fresha_name">{self.name}</div>
 {last_img}
 <div class="fresha_description">{self.description if self.description else ""}</div>
+{view_pics}
 {extra_text}
 <div style="clear:both"></div>
 '''
