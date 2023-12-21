@@ -69,7 +69,9 @@ class Post(models.Model):
     @property
     def formatted_markdown(self):
         text = re.sub('~~([^~]+)~~',r'<s>\1</s>',self.text) # not in standard extensions
-        return markdownify(text)
+        text = markdownify(text)
+        text = text.replace('<img ','<img loading="lazy"')
+        return text
 
     @property
     def plain_text(self):
