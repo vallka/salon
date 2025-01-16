@@ -1,4 +1,6 @@
 import re
+import requests
+
 from django.db import models
 from markdownx.models import MarkdownxField
 from markdownx.utils import markdownify
@@ -87,6 +89,11 @@ class Item(models.Model):
     caption = models.CharField(max_length=255,blank=True,default='',null=True)
 
     @property
+    def full_name(self):
+        return re.sub(r'\s+', ' ', self.name + (' - ' + self.caption if self.caption else '')).strip()
+    
+
+    @property
     def duration_h(self):
         total_mins = self.duration // 60
         hrs = total_mins // 60
@@ -112,4 +119,91 @@ class Item(models.Model):
 
 
     def __str__(self):
-        return str(self.name) + '-' + str(self.caption)
+        return self.full_name
+
+    @classmethod
+    def populate_all(cls):
+        print ('populate_all')
+
+        r=requests.get('https://api.fresha.com/locations/805208/marketplace-offer?context=booking-flow')
+
+        data=r.json()['data']
+        included=r.json()['included']
+
+
+        categories = []
+        groups = []
+        items = []
+
+        #"""
+        for i in included:
+            if i['type']=='offer-item-categories':
+                print(i['type'], i['id'], i['attributes']['name'],i['attributes']['position'])
+                try:
+                    category = Category.objects.get(id=i['id'])
+                    category.name=i['attributes']['name']
+                    category.description=i['attributes']['description']
+                    category.position=i['attributes']['position']
+                except Category.DoesNotExist:
+                    category = Category(id=i['id'],name=i['attributes']['name'],description=i['attributes']['description'],position=i['attributes']['position'])
+
+                categories.append(i['id'])
+                category.save()    
+
+            elif i['type']=='offer-item-groups':
+                print(i['type'], i['id'], i['attributes']['name'],i['attributes']['position'],i['relationships']['category']['data']['id'])
+                id = i['id'][2:]
+                i['attributes']['name'] = i['attributes']['name'].replace('( ','(').replace(' )',')').replace('  ',' ')
+                try:
+                    group = Group.objects.get(id=id)
+                    group.name=i['attributes']['name']
+                    group.description=i['attributes']['description']
+                    group.position=i['attributes']['position']
+                    group.category_id=i['relationships']['category']['data']['id']
+                except Group.DoesNotExist:
+                    group = Group(
+                        id=id,
+                        name=i['attributes']['name'],
+                        description=i['attributes']['description'],
+                        position=i['attributes']['position'],
+                        category_id=i['relationships']['category']['data']['id']
+                    )
+
+                groups.append(id)
+                group.save()
+        #"""
+
+        for d in data:
+            print(d['id'],d['attributes']['name'],d['attributes']['position'],d['relationships']['item-group']['data']['id'],d['attributes']['retail-price'],d['attributes']['duration-for-customer-in-seconds'])
+            d['attributes']['name'] = d['attributes']['name'].replace('( ','(').replace(' )',')').replace('  ',' ')
+            try:
+                item = Item.objects.get(str_id=d['id'])
+                item.caption=d['attributes']['caption']
+                item.name=d['attributes']['name']
+                item.description=d['attributes']['description']
+                item.position=d['attributes']['position']
+                item.group_id=d['relationships']['item-group']['data']['id'][2:]
+                item.price = d['attributes']['retail-price']
+                item.duration = d['attributes']['duration-for-customer-in-seconds']
+            except Item.DoesNotExist:
+                item = Item(
+                    str_id=d['id'],
+                    caption=d['attributes']['caption'],
+                    name=d['attributes']['name'],
+                    description=d['attributes']['description'],
+                    position=d['attributes']['position'],
+                    group_id=d['relationships']['item-group']['data']['id'][2:],
+                    price = d['attributes']['retail-price'],
+                    duration = d['attributes']['duration-for-customer-in-seconds']
+                )
+            item.save()
+            items.append(d['id'])
+
+
+        print(categories)
+        print(groups)
+        print(items)
+
+        Category.objects.exclude(id__in=categories).update(active=False)
+        Group.objects.exclude(id__in=groups).update(active=False)
+        Item.objects.exclude(str_id__in=items).update(active=False)

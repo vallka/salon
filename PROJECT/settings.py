@@ -31,6 +31,10 @@ ALLOWED_HOSTS = ['*']
 INSTALLED_APPS = [
     'blog',
     'fresha',
+    'booking',
+
+    'appointment',
+    
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -161,6 +165,7 @@ MARKDOWNX_MARKDOWN_EXTENSIONS = [
     'tables','attr_list','fenced_code','md_in_html','nl2br','wikilinks','footnotes',
 ]
 
+APPOINTMENT_WEBSITE_NAME = 'Nail Bar'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field

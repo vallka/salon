@@ -17,7 +17,7 @@ class GroupAdmin(admin.ModelAdmin):
 
 @admin.register(Item)
 class ItemAdmin(admin.ModelAdmin):
-    list_display = ['str_id', 'name', 'active', 'group']
-    list_display_links = ['str_id', 'name', 'group']
+    list_display = ['str_id', 'full_name', 'active', 'group']
+    list_display_links = ['str_id', 'full_name', 'group']
     list_filter = ['active',  'group' ]
     list_editable = ['active'] 
